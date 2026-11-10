@@ -76,6 +76,14 @@ if section=="Overview":
             st.dataframe(pd.DataFrame([{"File":x["filename"],"Type":x["document_type"].replace("_"," "),"Pages":x["page_count"],"Status":x["status"],"Engine":x["ocr_engine"]} for x in docs]),hide_index=True,use_container_width=True)
         else:st.caption("No local documents have been processed yet.")
     st.caption("Prototype for intake assistance. Validation flags inconsistencies for human review and does not determine coverage.")
+    inventory_summary=ROOT/"outputs"/"insurance_dataset_summary.json"
+    if inventory_summary.exists():
+        try:
+            summary=json.loads(inventory_summary.read_text(encoding="utf-8"))
+            st.subheader("Local insurance dataset inventory")
+            st.caption("Inventory only. The Strata sample is synthetic; this is not a claim about production insurer data.")
+            st.json({"inventory_records":summary.get("inventory_records"),"formats":summary.get("formats"),"categories":summary.get("categories"),"strata_document_scans":summary.get("strata_document_scans_discovered"),"paired_scan_references":summary.get("paired_scan_reference_pdfs"),"unmatched_scans":len(summary.get("unmatched_scans",[]))})
+        except Exception as exc:st.warning(f"Dataset inventory summary unavailable: {exc}")
 
 elif section=="Document Upload":
     st.subheader("Add documents")
@@ -217,6 +225,47 @@ elif section=="AI Summary":
 elif section=="Evaluation":
     st.subheader("Evaluation and experimental results")
     st.write("Metrics below use only explicitly supplied labeled records. The app does not treat OCR confidence as ground truth.")
+    run_dirs=sorted((ROOT/"outputs"/"insurance_experiments").glob("run_*"),key=lambda p:p.stat().st_mtime,reverse=True)
+    run_root=run_dirs[0] if run_dirs else ROOT/"outputs"/"insurance_experiments"/"run_20261110_235259"
+    insurance_report=run_root/"insurance_ocr_experiment.json"
+    field_report=run_root/"insurance_field_evaluation.json"
+    validation_report=run_root/"insurance_cross_document_validation.json"
+    if insurance_report.exists():
+        try:
+            ins=json.loads(insurance_report.read_text(encoding="utf-8"))
+            st.subheader("Insurance scan OCR experiment · exploratory")
+            st.warning("Synthetic sample corpus; paired PDF text is an unverified reference. CER/WER are provisional and are not held-out production performance.")
+            c1,c2,c3,c4=st.columns(4)
+            c1.metric("Scans processed",ins.get("scan_documents_processed",0));c2.metric("Paired references",ins.get("paired_pdf_references",0));c3.metric("Unmatched scans",len(ins.get("unmatched_scans",[])));c4.metric("OCR failures",len(ins.get("ocr_failures",[])))
+            variant_rows=[]
+            for psm,variants in ins.get("metric_summary",{}).items():
+                for variant,values in variants.items():
+                    if isinstance(values,dict) and "macro_cer" in values:
+                        variant_rows.append({"PSM":psm,"Variant":variant,"Documents":values.get("documents_scored"),"Macro CER":values["macro_cer"],"Macro WER":values["macro_wer"],"Micro CER":values.get("micro_cer"),"Micro WER":values.get("micro_wer")})
+            if variant_rows:
+                frame=pd.DataFrame(variant_rows)
+                psm_choice=st.selectbox("Experimental PSM",sorted(frame["PSM"].unique(),key=int),key="insurance_psm")
+                st.dataframe(frame[frame["PSM"]==psm_choice],hide_index=True,use_container_width=True)
+            st.caption(f"Full outputs: {run_root.relative_to(ROOT)}")
+        except Exception as exc:st.warning(f"Could not read insurance OCR experiment: {exc}")
+    if field_report.exists():
+        try:
+            fields=json.loads(field_report.read_text(encoding="utf-8"))
+            st.subheader("Insurance field extraction · exploratory metadata comparison")
+            st.caption(fields.get("source",""))
+            metrics=fields.get("metrics_by_psm_and_variant",{}).get("3",{}).get("original",{})
+            overall=metrics.get("micro_over_all_fields",{})
+            if overall:st.metric("PSM 3 original exact-match accuracy",f"{overall.get('exact_match_accuracy',0):.1%}",f"{overall.get('exact_matches',0)} / {overall.get('count',0)} field values")
+        except Exception as exc:st.warning(f"Could not read field evaluation: {exc}")
+    if validation_report.exists():
+        try:
+            checks=json.loads(validation_report.read_text(encoding="utf-8"))
+            if isinstance(checks,dict):checks=checks.get("checks",checks.get("results",[]))
+            if checks:
+                st.subheader("Cross-document consistency checks · PSM 3 original")
+                st.dataframe(pd.Series([x.get("status") for x in checks]).value_counts().rename_axis("Status").reset_index(name="Checks"),hide_index=True,use_container_width=True)
+                st.caption("Informational consistency checks only; no coverage decision is made.")
+        except Exception as exc:st.warning(f"Could not read cross-document checks: {exc}")
     annotation_file=ROOT/"datasets"/"annotations"/"evaluation.jsonl"
     experiment_file=ROOT/"outputs"/"evaluation"/"ocr_experiment_records.jsonl"
     evaluation_source=annotation_file if annotation_file.exists() else experiment_file

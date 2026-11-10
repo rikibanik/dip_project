@@ -12,6 +12,8 @@ from src.classification.classifier import classify_document,train_classifier,pre
 from src.extraction.fields import extract_fields
 from src.validation.rules import validate_claim
 from src.evaluation.metrics import cer,wer,classification_metrics,entity_metrics,image_quality,edit_distance
+from src.extraction.insurance_fields import extract_insurance_fields
+from src.validation.insurance import validate_insurance_case
 
 def png_bytes():
     arr=np.full((180,320,3),255,np.uint8);arr[45:140,45:280]=0
@@ -134,3 +136,36 @@ def test_per_variant_metrics_compare_against_shared_ground_truth():
     assert result["ocr"]["variants"]["original"]["mean_wer"]==0.5
     assert result["ocr"]["mean_wer"]==0.5
     assert result["classification"]["improved"]["accuracy"]==1
+
+def test_insurance_extraction_keeps_missing_fields_null_and_captures_evidence():
+    text="""Claim number: C-1000
+Policy number: COM-0000001
+Insured: Mr. Stewart Montague
+Date of loss: 13/07/2024
+Date reported: 21/07/2024
+Cause of loss: business interruption
+Claim status: CLOSED
+Current reserve: €0.00
+Settlement payment of €10,650.00 net of your €2,500.00 policy deductible."""
+    fields=extract_insurance_fields(text,"fnol","scan.jpg")
+    assert fields["claim_number"]["value"]=="C-1000"
+    assert fields["date_of_loss"]["value"]=="2024-07-13"
+    assert fields["cause_of_loss"]["value"]=="business interruption"
+    assert fields["settlement_amount"]["value"]=="10650.00"
+    assert fields["policy_number"]["evidence"]
+    assert fields["vehicle_registration"]["value"] is None
+
+def test_insurance_case_validation_reports_verified_missing_and_mismatch():
+    documents=[{"document_id":"d1","filename":"a.jpg","applicable_fields":["policy_number"],"fields":{"policy_number":{"value":"MOT-0000002","evidence":"Policy MOT-0000002"}}}]
+    checks=validate_insurance_case("C-1",documents,{"policy_number":"MOT-0000002","insured_name":"Sam Example"})
+    status={r["field"]:r["status"] for r in checks}
+    assert status=={"policy_number":"VERIFIED","insured_name":"MISSING"}
+    documents[0]["fields"]["policy_number"]["value"]="MOT-9999999"
+    assert validate_insurance_case("C-1",documents,{"policy_number":"MOT-0000002"})[0]["status"]=="MISMATCHED"
+
+def test_document_storage_commits_records(tmp_path):
+    from src.storage import save_document,get_document
+    path=tmp_path/"history.sqlite3"
+    record={"document_id":"persist-me","filename":"scan.png","content_hash":"abc","status":"processed","document_type":"unknown","classification":{"confidence":None},"fields":{}}
+    save_document(record,path)
+    assert get_document("persist-me",path)==record

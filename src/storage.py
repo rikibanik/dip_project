@@ -14,7 +14,12 @@ def connect(path:Path|str=DB_PATH):
 @contextmanager
 def _connection(path:Path|str=DB_PATH):
     con=connect(path)
-    try:yield con
+    try:
+        yield con
+        con.commit()
+    except Exception:
+        con.rollback()
+        raise
     finally:con.close()
 def save_document(record:dict,path:Path|str=DB_PATH):
     with _connection(path) as con:

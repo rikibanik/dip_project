@@ -10,4 +10,6 @@ outputs/**
 !outputs/.gitkeep
 datasets/raw/**
 datasets/processed/**
+datasets/insurance/
+datasets/external/
 *.py[cod]

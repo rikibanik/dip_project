@@ -41,7 +41,7 @@ flowchart TD
  F --> G[Morphological opening / closing]
  C --> H[Skew estimate and deskew]
  C --> I[Contours, components, line projections]
- D --> O[Compare original plus nine preprocessing views]
+ D --> O[Compare original plus ten preprocessing views]
  E --> O
  F --> O
  G --> O
@@ -64,7 +64,7 @@ flowchart TD
 
 ## Experimental design
 
-The processing run records text for the original plus grayscale, histogram-equalized, CLAHE, global, Otsu, adaptive, Gaussian, median and morphological images. `scripts/run_ocr_experiment.py` joins saved OCR JSON to human page transcriptions and calculates method-wise CER/WER, including per-page best and worst cases against original. `scripts/train_classifier.py` and `scripts/evaluate_classifier.py` keep training and test documents in separate splits for a paired keyword-vs-TF-IDF/logistic-regression comparison. Entity and validation metrics are computed only where their ground-truth fields are provided. OCR confidence and character yield are descriptive diagnostics, not substitutes for ground truth. Synthetic examples demonstrate the flow but are not benchmark evidence.
+The processing run records text for the original plus grayscale, histogram-equalized, CLAHE, global, Otsu, adaptive, Gaussian, median, morphological, and deskewed images. `scripts/run_ocr_experiment.py` joins saved OCR JSON to human page transcriptions and calculates method-wise CER/WER, including per-page best and worst cases against original. `scripts/train_classifier.py` and `scripts/evaluate_classifier.py` keep training and test documents in separate splits for a paired keyword-vs-TF-IDF/logistic-regression comparison. Entity and validation metrics are computed only where their ground-truth fields are provided. OCR confidence and character yield are descriptive diagnostics, not substitutes for ground truth. Synthetic examples demonstrate the flow but are not benchmark evidence.
 
 ## Phases and acceptance
 
@@ -83,3 +83,8 @@ The processing run records text for the original plus grayscale, histogram-equal
 ## Limitations
 
 OCR varies with engine, language and scan quality. Rule classification/extraction are baselines. CER/WER/F1 require labeled ground truth; PSNR/SSIM require clean references. Dataset access and licensing must be checked before collection. Optional LLM summaries transmit selected extracted evidence to the configured provider. This system does not decide coverage or claim eligibility.
+
+
+## Insurance sample experiment integration
+
+`scripts/inspect_insurance_dataset.py` consumes the local Strata manifest and inventories the extracted Strata/Gritworks data without mutating historic evaluation artifacts. `scripts/run_insurance_ocr_experiment.py` calls the existing document pipeline for eligible Strata scan images, then runs controlled Tesseract PSM 3/6/11 comparisons on each independently generated preprocessing variant. It writes a new timestamped output directory and evaluates reference text only for scans with same-stem PDFs. Those text references remain provisional pending visual alignment review; unmatched records have no CER/WER. Rule-based field extraction and cross-document checks are exploratory and do not make claim decisions.

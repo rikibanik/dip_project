@@ -3,6 +3,7 @@ import os
 import shutil
 import numpy as np
 from PIL import Image
+from src.config import TESSERACT_CMD
 
 class OCREngine:
     def __init__(self, prefer: str = "paddleocr", tesseract_psm: int | None = None):
@@ -22,13 +23,13 @@ class OCREngine:
         try:
             import pytesseract
             command=os.getenv("TESSERACT_CMD")
-            candidates=[command,shutil.which("tesseract"),r"C:\Program Files\Tesseract-OCR\tesseract.exe",r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe"]
+            candidates=[command,TESSERACT_CMD,r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe",shutil.which("tesseract")]
             executable=next((candidate for candidate in candidates if candidate and (os.path.isfile(candidate) or shutil.which(candidate))),None)
             if executable:
                 pytesseract.pytesseract.tesseract_cmd=executable
                 self.reader=pytesseract; self.kind="tesseract"
             elif prefer=="tesseract":
-                self.error="Tesseract executable not found. Put tesseract.exe on PATH or set TESSERACT_CMD."
+                self.error=f"Tesseract executable not found. Checked configured path {TESSERACT_CMD!r}; set TESSERACT_CMD to the installed executable."
         except Exception as exc: self.error=f"Tesseract unavailable: {exc}"
 
     def extract(self,image:np.ndarray,page_number:int=1)->dict:

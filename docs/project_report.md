@@ -10,7 +10,7 @@ Pages are rasterized and processed with OpenCV operations including grayscale co
 
 ## Experimental protocol
 
-The code provides CER/WER, classification accuracy/precision/recall/F1/confusion matrix and entity metrics. They require held-out ground truth. PSNR/SSIM require paired clean references. No dataset was silently downloaded and no benchmark scores are claimed. Record dataset split and OCR engine/model version with results.
+The code provides CER/WER, classification accuracy/precision/recall/F1/confusion matrix and entity metrics. They require held-out ground truth. PSNR/SSIM require paired clean references. No dataset was silently downloaded. Any reported comparison must identify its data split, reference quality, OCR engine/version, and limitations; the local Strata measurements later in this report are exploratory and provisional rather than held-out benchmark scores.
 
 ## Limitations and reproducibility
 
@@ -31,3 +31,8 @@ The run analyzed 50 documents for each PSM (150 document-configuration records),
 | 11 | 0.5022 | 0.6883 | 0.5120 | 0.6943 |
 
 For PSM 3, deskewed grayscale measured micro CER 0.5412 and micro WER 0.7154 (macro CER 0.5441 and macro WER 0.7121). This is a descriptive test-set measurement, not evidence to tune preprocessing on the same set. In the Gaussian-denoised PSM 3 view, micro CER was 0.6167 versus micro WER 0.7613; the mean document-level WER-minus-CER gap was 0.1359. Character and word normalization use different denominators, and token splits/merges and OCR line segmentation can produce fewer character edits relative to characters while creating more word-level edits relative to reference words. The representative discrepancy cases and approximate operation diagnostics are included in the machine-readable report.
+
+
+## Local insurance experiment handoff
+
+The complete inventory, exploratory OCR/field methodology, actual measurements, limitations, and reproducibility commands are in [insurance_document_intelligence_final_report.md](insurance_document_intelligence_final_report.md). The local Strata sample is synthetic. OCR reference pairing and scores remain provisional pending visual alignment; no claim decision is automated.
