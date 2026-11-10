@@ -1,0 +1,13 @@
+.venv/
+.deps/
+__pycache__/
+.pytest_cache/
+.env
+data/uploads/*
+data/processed/*
+data/insurance_intelligence.db
+outputs/**
+!outputs/.gitkeep
+datasets/raw/**
+datasets/processed/**
+*.py[cod]
