@@ -234,3 +234,22 @@ The prior FUNSD work is a separate general form-understanding OCR benchmark. It 
 - [Independent experimental audit outputs](outputs/insurance_experiments/audit_20261111_002848/audit_summary.md)
 - [Dataset notes](docs/datasets.md)
 - [Architecture](docs/architecture.md)
+
+## Final submission package
+
+Individually named, prefixed deliverables are organized under `submission/` in nine folders for the problem statement, state of the art, methodology, source code, data sources, USP and DIP visuals, results, references, and the four-page paper. Original source/data/results remain in their existing locations. Dataset binaries are not duplicated into the package. The PDF page count is checked by `scripts/build_ieee_paper.py`.
+
+To rebuild the generated submission copies and paper from the repository root in Windows PowerShell:
+
+```powershell
+python scripts/build_ieee_paper.py
+python scripts/prepare_submission.py
+```
+
+The package includes existing preprocessing/OCR visual comparison sheets and the report/audit sources. A saved file-backed screenshot set for all eight dashboard sections is not included: the app was launched and Overview was observed, but the available desktop browser capture returned an in-session image and did not expose a workspace save operation. Upload-dependent views also need a document in the live app session. Do not treat empty-state screens as evidence of document processing.
+
+Run the application:
+
+```powershell
+streamlit run app/main.py
+```

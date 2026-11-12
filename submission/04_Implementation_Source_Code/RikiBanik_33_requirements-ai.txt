@@ -1,0 +1,2 @@
+# Optional LLM summary provider; no API calls are made without explicit configuration.
+openai>=1.30

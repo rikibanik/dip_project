@@ -47,7 +47,7 @@ Use the language “academic prototype,” “synthetic sample,” and “explor
 - Rule baseline classification and evidence-linked field extraction.
 - Cross-document checks feed a human review dashboard.
 
-**Visual:** include Mermaid architecture from README or `docs/architecture.md`.
+**Visual:** include Mermaid architecture from [the project README](../README.md) or `architecture.md`.
 
 ## Slide 6 — Image preprocessing
 

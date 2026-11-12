@@ -1,0 +1,5465 @@
+{
+  "source": "Strata synthetic model.json joined through manifest entity_ids; applicable fields selected by document type; no OCR values were used to construct targets.",
+  "status": "exploratory_metadata_comparison",
+  "metrics_by_psm_and_variant": {
+    "3": {
+      "original": {
+        "cause_of_loss": {
+          "count": 13,
+          "exact_matches": 12,
+          "exact_match_accuracy": 0.9230769230769231,
+          "precision": 1.0,
+          "recall": 0.9230769230769231,
+          "f1": 0.96
+        },
+        "claim_decision": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_number": {
+          "count": 17,
+          "exact_matches": 14,
+          "exact_match_accuracy": 0.8235294117647058,
+          "precision": 1.0,
+          "recall": 0.8235294117647058,
+          "f1": 0.9032258064516129
+        },
+        "claim_status": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date_of_loss": {
+          "count": 17,
+          "exact_matches": 16,
+          "exact_match_accuracy": 0.9411764705882353,
+          "precision": 1.0,
+          "recall": 0.9411764705882353,
+          "f1": 0.9696969696969697
+        },
+        "date_reported": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "deductible": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "identification_number": {
+          "count": 6,
+          "exact_matches": 5,
+          "exact_match_accuracy": 0.8333333333333334,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "insured_name": {
+          "count": 23,
+          "exact_matches": 13,
+          "exact_match_accuracy": 0.5652173913043478,
+          "precision": 0.6190476190476191,
+          "recall": 0.5652173913043478,
+          "f1": 0.5909090909090909
+        },
+        "insured_vehicle": {
+          "count": 4,
+          "exact_matches": 2,
+          "exact_match_accuracy": 0.5,
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5
+        },
+        "policy_number": {
+          "count": 17,
+          "exact_matches": 14,
+          "exact_match_accuracy": 0.8235294117647058,
+          "precision": 1.0,
+          "recall": 0.8235294117647058,
+          "f1": 0.9032258064516129
+        },
+        "reserve_amount": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "settlement_amount": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "vehicle_registration": {
+          "count": 4,
+          "exact_matches": 1,
+          "exact_match_accuracy": 0.25,
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1": 0.4
+        },
+        "micro_over_all_fields": {
+          "count": 124,
+          "exact_matches": 100,
+          "exact_match_accuracy": 0.8064516129032258,
+          "precision": 0.9090909090909091,
+          "recall": 0.8064516129032258,
+          "f1": 0.8547008547008547
+        }
+      },
+      "grayscale": {
+        "cause_of_loss": {
+          "count": 13,
+          "exact_matches": 12,
+          "exact_match_accuracy": 0.9230769230769231,
+          "precision": 1.0,
+          "recall": 0.9230769230769231,
+          "f1": 0.96
+        },
+        "claim_decision": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_number": {
+          "count": 17,
+          "exact_matches": 14,
+          "exact_match_accuracy": 0.8235294117647058,
+          "precision": 1.0,
+          "recall": 0.8235294117647058,
+          "f1": 0.9032258064516129
+        },
+        "claim_status": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date_of_loss": {
+          "count": 17,
+          "exact_matches": 16,
+          "exact_match_accuracy": 0.9411764705882353,
+          "precision": 1.0,
+          "recall": 0.9411764705882353,
+          "f1": 0.9696969696969697
+        },
+        "date_reported": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "deductible": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "identification_number": {
+          "count": 6,
+          "exact_matches": 5,
+          "exact_match_accuracy": 0.8333333333333334,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "insured_name": {
+          "count": 23,
+          "exact_matches": 13,
+          "exact_match_accuracy": 0.5652173913043478,
+          "precision": 0.6190476190476191,
+          "recall": 0.5652173913043478,
+          "f1": 0.5909090909090909
+        },
+        "insured_vehicle": {
+          "count": 4,
+          "exact_matches": 2,
+          "exact_match_accuracy": 0.5,
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5
+        },
+        "policy_number": {
+          "count": 17,
+          "exact_matches": 14,
+          "exact_match_accuracy": 0.8235294117647058,
+          "precision": 1.0,
+          "recall": 0.8235294117647058,
+          "f1": 0.9032258064516129
+        },
+        "reserve_amount": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "settlement_amount": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "vehicle_registration": {
+          "count": 4,
+          "exact_matches": 1,
+          "exact_match_accuracy": 0.25,
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1": 0.4
+        },
+        "micro_over_all_fields": {
+          "count": 124,
+          "exact_matches": 100,
+          "exact_match_accuracy": 0.8064516129032258,
+          "precision": 0.9090909090909091,
+          "recall": 0.8064516129032258,
+          "f1": 0.8547008547008547
+        }
+      },
+      "clahe": {
+        "cause_of_loss": {
+          "count": 13,
+          "exact_matches": 13,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_decision": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_number": {
+          "count": 17,
+          "exact_matches": 14,
+          "exact_match_accuracy": 0.8235294117647058,
+          "precision": 1.0,
+          "recall": 0.8235294117647058,
+          "f1": 0.9032258064516129
+        },
+        "claim_status": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date_of_loss": {
+          "count": 17,
+          "exact_matches": 15,
+          "exact_match_accuracy": 0.8823529411764706,
+          "precision": 0.9375,
+          "recall": 0.8823529411764706,
+          "f1": 0.9090909090909091
+        },
+        "date_reported": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "deductible": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "identification_number": {
+          "count": 6,
+          "exact_matches": 4,
+          "exact_match_accuracy": 0.6666666666666666,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8
+        },
+        "insured_name": {
+          "count": 23,
+          "exact_matches": 8,
+          "exact_match_accuracy": 0.34782608695652173,
+          "precision": 0.38095238095238093,
+          "recall": 0.34782608695652173,
+          "f1": 0.36363636363636365
+        },
+        "insured_vehicle": {
+          "count": 4,
+          "exact_matches": 3,
+          "exact_match_accuracy": 0.75,
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571428571428571
+        },
+        "policy_number": {
+          "count": 17,
+          "exact_matches": 13,
+          "exact_match_accuracy": 0.7647058823529411,
+          "precision": 1.0,
+          "recall": 0.7647058823529411,
+          "f1": 0.8666666666666667
+        },
+        "reserve_amount": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "settlement_amount": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "vehicle_registration": {
+          "count": 4,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "micro_over_all_fields": {
+          "count": 124,
+          "exact_matches": 93,
+          "exact_match_accuracy": 0.75,
+          "precision": 0.8611111111111112,
+          "recall": 0.75,
+          "f1": 0.8017241379310345
+        }
+      },
+      "otsu_threshold": {
+        "cause_of_loss": {
+          "count": 13,
+          "exact_matches": 12,
+          "exact_match_accuracy": 0.9230769230769231,
+          "precision": 1.0,
+          "recall": 0.9230769230769231,
+          "f1": 0.96
+        },
+        "claim_decision": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_number": {
+          "count": 17,
+          "exact_matches": 8,
+          "exact_match_accuracy": 0.47058823529411764,
+          "precision": 1.0,
+          "recall": 0.47058823529411764,
+          "f1": 0.64
+        },
+        "claim_status": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date_of_loss": {
+          "count": 17,
+          "exact_matches": 12,
+          "exact_match_accuracy": 0.7058823529411765,
+          "precision": 0.75,
+          "recall": 0.7058823529411765,
+          "f1": 0.7272727272727273
+        },
+        "date_reported": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "deductible": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "identification_number": {
+          "count": 6,
+          "exact_matches": 1,
+          "exact_match_accuracy": 0.16666666666666666,
+          "precision": 0.3333333333333333,
+          "recall": 0.16666666666666666,
+          "f1": 0.2222222222222222
+        },
+        "insured_name": {
+          "count": 23,
+          "exact_matches": 11,
+          "exact_match_accuracy": 0.4782608695652174,
+          "precision": 0.6111111111111112,
+          "recall": 0.4782608695652174,
+          "f1": 0.5365853658536586
+        },
+        "insured_vehicle": {
+          "count": 4,
+          "exact_matches": 2,
+          "exact_match_accuracy": 0.5,
+          "precision": 0.6666666666666666,
+          "recall": 0.5,
+          "f1": 0.5714285714285714
+        },
+        "policy_number": {
+          "count": 17,
+          "exact_matches": 12,
+          "exact_match_accuracy": 0.7058823529411765,
+          "precision": 1.0,
+          "recall": 0.7058823529411765,
+          "f1": 0.8275862068965517
+        },
+        "reserve_amount": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "settlement_amount": {
+          "count": 2,
+          "exact_matches": 1,
+          "exact_match_accuracy": 0.5,
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5
+        },
+        "vehicle_registration": {
+          "count": 4,
+          "exact_matches": 1,
+          "exact_match_accuracy": 0.25,
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1": 0.4
+        },
+        "micro_over_all_fields": {
+          "count": 124,
+          "exact_matches": 81,
+          "exact_match_accuracy": 0.6532258064516129,
+          "precision": 0.84375,
+          "recall": 0.6532258064516129,
+          "f1": 0.7363636363636363
+        }
+      },
+      "adaptive_threshold": {
+        "cause_of_loss": {
+          "count": 13,
+          "exact_matches": 12,
+          "exact_match_accuracy": 0.9230769230769231,
+          "precision": 1.0,
+          "recall": 0.9230769230769231,
+          "f1": 0.96
+        },
+        "claim_decision": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_number": {
+          "count": 17,
+          "exact_matches": 7,
+          "exact_match_accuracy": 0.4117647058823529,
+          "precision": 1.0,
+          "recall": 0.4117647058823529,
+          "f1": 0.5833333333333334
+        },
+        "claim_status": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date_of_loss": {
+          "count": 17,
+          "exact_matches": 9,
+          "exact_match_accuracy": 0.5294117647058824,
+          "precision": 0.6428571428571429,
+          "recall": 0.5294117647058824,
+          "f1": 0.5806451612903226
+        },
+        "date_reported": {
+          "count": 5,
+          "exact_matches": 2,
+          "exact_match_accuracy": 0.4,
+          "precision": 0.4,
+          "recall": 0.4,
+          "f1": 0.4
+        },
+        "deductible": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "identification_number": {
+          "count": 6,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "insured_name": {
+          "count": 23,
+          "exact_matches": 9,
+          "exact_match_accuracy": 0.391304347826087,
+          "precision": 0.5294117647058824,
+          "recall": 0.391304347826087,
+          "f1": 0.45
+        },
+        "insured_vehicle": {
+          "count": 4,
+          "exact_matches": 1,
+          "exact_match_accuracy": 0.25,
+          "precision": 0.25,
+          "recall": 0.25,
+          "f1": 0.25
+        },
+        "policy_number": {
+          "count": 17,
+          "exact_matches": 13,
+          "exact_match_accuracy": 0.7647058823529411,
+          "precision": 1.0,
+          "recall": 0.7647058823529411,
+          "f1": 0.8666666666666667
+        },
+        "reserve_amount": {
+          "count": 5,
+          "exact_matches": 4,
+          "exact_match_accuracy": 0.8,
+          "precision": 0.8,
+          "recall": 0.8,
+          "f1": 0.8
+        },
+        "settlement_amount": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "vehicle_registration": {
+          "count": 4,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "micro_over_all_fields": {
+          "count": 124,
+          "exact_matches": 70,
+          "exact_match_accuracy": 0.5645161290322581,
+          "precision": 0.7777777777777778,
+          "recall": 0.5645161290322581,
+          "f1": 0.6542056074766355
+        }
+      },
+      "gaussian_denoised": {
+        "cause_of_loss": {
+          "count": 13,
+          "exact_matches": 12,
+          "exact_match_accuracy": 0.9230769230769231,
+          "precision": 1.0,
+          "recall": 0.9230769230769231,
+          "f1": 0.96
+        },
+        "claim_decision": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_number": {
+          "count": 17,
+          "exact_matches": 13,
+          "exact_match_accuracy": 0.7647058823529411,
+          "precision": 1.0,
+          "recall": 0.7647058823529411,
+          "f1": 0.8666666666666667
+        },
+        "claim_status": {
+          "count": 5,
+          "exact_matches": 4,
+          "exact_match_accuracy": 0.8,
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1": 0.8888888888888888
+        },
+        "date_of_loss": {
+          "count": 17,
+          "exact_matches": 14,
+          "exact_match_accuracy": 0.8235294117647058,
+          "precision": 1.0,
+          "recall": 0.8235294117647058,
+          "f1": 0.9032258064516129
+        },
+        "date_reported": {
+          "count": 5,
+          "exact_matches": 3,
+          "exact_match_accuracy": 0.6,
+          "precision": 1.0,
+          "recall": 0.6,
+          "f1": 0.75
+        },
+        "deductible": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "identification_number": {
+          "count": 6,
+          "exact_matches": 4,
+          "exact_match_accuracy": 0.6666666666666666,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8
+        },
+        "insured_name": {
+          "count": 23,
+          "exact_matches": 6,
+          "exact_match_accuracy": 0.2608695652173913,
+          "precision": 0.4,
+          "recall": 0.2608695652173913,
+          "f1": 0.3157894736842105
+        },
+        "insured_vehicle": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "policy_number": {
+          "count": 17,
+          "exact_matches": 14,
+          "exact_match_accuracy": 0.8235294117647058,
+          "precision": 1.0,
+          "recall": 0.8235294117647058,
+          "f1": 0.9032258064516129
+        },
+        "reserve_amount": {
+          "count": 5,
+          "exact_matches": 3,
+          "exact_match_accuracy": 0.6,
+          "precision": 1.0,
+          "recall": 0.6,
+          "f1": 0.75
+        },
+        "settlement_amount": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "vehicle_registration": {
+          "count": 4,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "micro_over_all_fields": {
+          "count": 124,
+          "exact_matches": 85,
+          "exact_match_accuracy": 0.6854838709677419,
+          "precision": 0.9042553191489362,
+          "recall": 0.6854838709677419,
+          "f1": 0.7798165137614679
+        }
+      },
+      "morphology": {
+        "cause_of_loss": {
+          "count": 13,
+          "exact_matches": 7,
+          "exact_match_accuracy": 0.5384615384615384,
+          "precision": 0.7,
+          "recall": 0.5384615384615384,
+          "f1": 0.6086956521739131
+        },
+        "claim_decision": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_number": {
+          "count": 17,
+          "exact_matches": 8,
+          "exact_match_accuracy": 0.47058823529411764,
+          "precision": 1.0,
+          "recall": 0.47058823529411764,
+          "f1": 0.64
+        },
+        "claim_status": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date_of_loss": {
+          "count": 17,
+          "exact_matches": 9,
+          "exact_match_accuracy": 0.5294117647058824,
+          "precision": 0.6923076923076923,
+          "recall": 0.5294117647058824,
+          "f1": 0.6
+        },
+        "date_reported": {
+          "count": 5,
+          "exact_matches": 3,
+          "exact_match_accuracy": 0.6,
+          "precision": 0.6,
+          "recall": 0.6,
+          "f1": 0.6
+        },
+        "deductible": {
+          "count": 2,
+          "exact_matches": 1,
+          "exact_match_accuracy": 0.5,
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5
+        },
+        "identification_number": {
+          "count": 6,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "insured_name": {
+          "count": 23,
+          "exact_matches": 7,
+          "exact_match_accuracy": 0.30434782608695654,
+          "precision": 0.3888888888888889,
+          "recall": 0.30434782608695654,
+          "f1": 0.34146341463414637
+        },
+        "insured_vehicle": {
+          "count": 4,
+          "exact_matches": 1,
+          "exact_match_accuracy": 0.25,
+          "precision": 0.3333333333333333,
+          "recall": 0.25,
+          "f1": 0.2857142857142857
+        },
+        "policy_number": {
+          "count": 17,
+          "exact_matches": 15,
+          "exact_match_accuracy": 0.8823529411764706,
+          "precision": 1.0,
+          "recall": 0.8823529411764706,
+          "f1": 0.9375
+        },
+        "reserve_amount": {
+          "count": 5,
+          "exact_matches": 2,
+          "exact_match_accuracy": 0.4,
+          "precision": 1.0,
+          "recall": 0.4,
+          "f1": 0.5714285714285714
+        },
+        "settlement_amount": {
+          "count": 2,
+          "exact_matches": 1,
+          "exact_match_accuracy": 0.5,
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5
+        },
+        "vehicle_registration": {
+          "count": 4,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "micro_over_all_fields": {
+          "count": 124,
+          "exact_matches": 63,
+          "exact_match_accuracy": 0.5080645161290323,
+          "precision": 0.7078651685393258,
+          "recall": 0.5080645161290323,
+          "f1": 0.5915492957746479
+        }
+      },
+      "deskewed": {
+        "cause_of_loss": {
+          "count": 13,
+          "exact_matches": 12,
+          "exact_match_accuracy": 0.9230769230769231,
+          "precision": 0.9230769230769231,
+          "recall": 0.9230769230769231,
+          "f1": 0.9230769230769231
+        },
+        "claim_decision": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_number": {
+          "count": 17,
+          "exact_matches": 15,
+          "exact_match_accuracy": 0.8823529411764706,
+          "precision": 1.0,
+          "recall": 0.8823529411764706,
+          "f1": 0.9375
+        },
+        "claim_status": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date_of_loss": {
+          "count": 17,
+          "exact_matches": 16,
+          "exact_match_accuracy": 0.9411764705882353,
+          "precision": 1.0,
+          "recall": 0.9411764705882353,
+          "f1": 0.9696969696969697
+        },
+        "date_reported": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "deductible": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "identification_number": {
+          "count": 6,
+          "exact_matches": 3,
+          "exact_match_accuracy": 0.5,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666
+        },
+        "insured_name": {
+          "count": 23,
+          "exact_matches": 14,
+          "exact_match_accuracy": 0.6086956521739131,
+          "precision": 0.7,
+          "recall": 0.6086956521739131,
+          "f1": 0.6511627906976745
+        },
+        "insured_vehicle": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "policy_number": {
+          "count": 17,
+          "exact_matches": 14,
+          "exact_match_accuracy": 0.8235294117647058,
+          "precision": 1.0,
+          "recall": 0.8235294117647058,
+          "f1": 0.9032258064516129
+        },
+        "reserve_amount": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "settlement_amount": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "vehicle_registration": {
+          "count": 4,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "micro_over_all_fields": {
+          "count": 124,
+          "exact_matches": 101,
+          "exact_match_accuracy": 0.8145161290322581,
+          "precision": 0.9181818181818182,
+          "recall": 0.8145161290322581,
+          "f1": 0.8632478632478633
+        }
+      },
+      "histogram_equalized": {
+        "cause_of_loss": {
+          "count": 13,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "claim_decision": {
+          "count": 4,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "claim_number": {
+          "count": 17,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "claim_status": {
+          "count": 5,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "date_of_loss": {
+          "count": 17,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "date_reported": {
+          "count": 5,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "deductible": {
+          "count": 2,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "identification_number": {
+          "count": 6,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "insured_name": {
+          "count": 23,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "insured_vehicle": {
+          "count": 4,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "policy_number": {
+          "count": 17,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "reserve_amount": {
+          "count": 5,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "settlement_amount": {
+          "count": 2,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "vehicle_registration": {
+          "count": 4,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "micro_over_all_fields": {
+          "count": 124,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "global_threshold": {
+        "cause_of_loss": {
+          "count": 13,
+          "exact_matches": 13,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_decision": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_number": {
+          "count": 17,
+          "exact_matches": 14,
+          "exact_match_accuracy": 0.8235294117647058,
+          "precision": 1.0,
+          "recall": 0.8235294117647058,
+          "f1": 0.9032258064516129
+        },
+        "claim_status": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date_of_loss": {
+          "count": 17,
+          "exact_matches": 16,
+          "exact_match_accuracy": 0.9411764705882353,
+          "precision": 0.9411764705882353,
+          "recall": 0.9411764705882353,
+          "f1": 0.9411764705882353
+        },
+        "date_reported": {
+          "count": 5,
+          "exact_matches": 4,
+          "exact_match_accuracy": 0.8,
+          "precision": 0.8,
+          "recall": 0.8,
+          "f1": 0.8
+        },
+        "deductible": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "identification_number": {
+          "count": 6,
+          "exact_matches": 1,
+          "exact_match_accuracy": 0.16666666666666666,
+          "precision": 1.0,
+          "recall": 0.16666666666666666,
+          "f1": 0.2857142857142857
+        },
+        "insured_name": {
+          "count": 23,
+          "exact_matches": 8,
+          "exact_match_accuracy": 0.34782608695652173,
+          "precision": 0.47058823529411764,
+          "recall": 0.34782608695652173,
+          "f1": 0.4
+        },
+        "insured_vehicle": {
+          "count": 4,
+          "exact_matches": 3,
+          "exact_match_accuracy": 0.75,
+          "precision": 0.75,
+          "recall": 0.75,
+          "f1": 0.75
+        },
+        "policy_number": {
+          "count": 17,
+          "exact_matches": 13,
+          "exact_match_accuracy": 0.7647058823529411,
+          "precision": 0.9285714285714286,
+          "recall": 0.7647058823529411,
+          "f1": 0.8387096774193549
+        },
+        "reserve_amount": {
+          "count": 5,
+          "exact_matches": 4,
+          "exact_match_accuracy": 0.8,
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1": 0.8888888888888888
+        },
+        "settlement_amount": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "vehicle_registration": {
+          "count": 4,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "micro_over_all_fields": {
+          "count": 124,
+          "exact_matches": 89,
+          "exact_match_accuracy": 0.717741935483871,
+          "precision": 0.8640776699029126,
+          "recall": 0.717741935483871,
+          "f1": 0.7841409691629956
+        }
+      },
+      "denoised": {
+        "cause_of_loss": {
+          "count": 13,
+          "exact_matches": 13,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_decision": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_number": {
+          "count": 17,
+          "exact_matches": 14,
+          "exact_match_accuracy": 0.8235294117647058,
+          "precision": 1.0,
+          "recall": 0.8235294117647058,
+          "f1": 0.9032258064516129
+        },
+        "claim_status": {
+          "count": 5,
+          "exact_matches": 4,
+          "exact_match_accuracy": 0.8,
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1": 0.8888888888888888
+        },
+        "date_of_loss": {
+          "count": 17,
+          "exact_matches": 15,
+          "exact_match_accuracy": 0.8823529411764706,
+          "precision": 0.8823529411764706,
+          "recall": 0.8823529411764706,
+          "f1": 0.8823529411764706
+        },
+        "date_reported": {
+          "count": 5,
+          "exact_matches": 3,
+          "exact_match_accuracy": 0.6,
+          "precision": 0.75,
+          "recall": 0.6,
+          "f1": 0.6666666666666666
+        },
+        "deductible": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "identification_number": {
+          "count": 6,
+          "exact_matches": 3,
+          "exact_match_accuracy": 0.5,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666
+        },
+        "insured_name": {
+          "count": 23,
+          "exact_matches": 5,
+          "exact_match_accuracy": 0.21739130434782608,
+          "precision": 0.4166666666666667,
+          "recall": 0.21739130434782608,
+          "f1": 0.2857142857142857
+        },
+        "insured_vehicle": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "policy_number": {
+          "count": 17,
+          "exact_matches": 14,
+          "exact_match_accuracy": 0.8235294117647058,
+          "precision": 1.0,
+          "recall": 0.8235294117647058,
+          "f1": 0.9032258064516129
+        },
+        "reserve_amount": {
+          "count": 5,
+          "exact_matches": 3,
+          "exact_match_accuracy": 0.6,
+          "precision": 0.75,
+          "recall": 0.6,
+          "f1": 0.6666666666666666
+        },
+        "settlement_amount": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "vehicle_registration": {
+          "count": 4,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "micro_over_all_fields": {
+          "count": 124,
+          "exact_matches": 86,
+          "exact_match_accuracy": 0.6935483870967742,
+          "precision": 0.8775510204081632,
+          "recall": 0.6935483870967742,
+          "f1": 0.7747747747747747
+        }
+      }
+    },
+    "6": {
+      "original": {
+        "cause_of_loss": {
+          "count": 13,
+          "exact_matches": 13,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_decision": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_number": {
+          "count": 17,
+          "exact_matches": 17,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_status": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date_of_loss": {
+          "count": 17,
+          "exact_matches": 15,
+          "exact_match_accuracy": 0.8823529411764706,
+          "precision": 1.0,
+          "recall": 0.8823529411764706,
+          "f1": 0.9375
+        },
+        "date_reported": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "deductible": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "identification_number": {
+          "count": 6,
+          "exact_matches": 5,
+          "exact_match_accuracy": 0.8333333333333334,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "insured_name": {
+          "count": 23,
+          "exact_matches": 11,
+          "exact_match_accuracy": 0.4782608695652174,
+          "precision": 0.55,
+          "recall": 0.4782608695652174,
+          "f1": 0.5116279069767442
+        },
+        "insured_vehicle": {
+          "count": 4,
+          "exact_matches": 3,
+          "exact_match_accuracy": 0.75,
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571428571428571
+        },
+        "policy_number": {
+          "count": 17,
+          "exact_matches": 15,
+          "exact_match_accuracy": 0.8823529411764706,
+          "precision": 1.0,
+          "recall": 0.8823529411764706,
+          "f1": 0.9375
+        },
+        "reserve_amount": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "settlement_amount": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "vehicle_registration": {
+          "count": 4,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "micro_over_all_fields": {
+          "count": 124,
+          "exact_matches": 102,
+          "exact_match_accuracy": 0.8225806451612904,
+          "precision": 0.9107142857142857,
+          "recall": 0.8225806451612904,
+          "f1": 0.864406779661017
+        }
+      },
+      "grayscale": {
+        "cause_of_loss": {
+          "count": 13,
+          "exact_matches": 13,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_decision": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_number": {
+          "count": 17,
+          "exact_matches": 17,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_status": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date_of_loss": {
+          "count": 17,
+          "exact_matches": 15,
+          "exact_match_accuracy": 0.8823529411764706,
+          "precision": 1.0,
+          "recall": 0.8823529411764706,
+          "f1": 0.9375
+        },
+        "date_reported": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "deductible": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "identification_number": {
+          "count": 6,
+          "exact_matches": 5,
+          "exact_match_accuracy": 0.8333333333333334,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "insured_name": {
+          "count": 23,
+          "exact_matches": 11,
+          "exact_match_accuracy": 0.4782608695652174,
+          "precision": 0.55,
+          "recall": 0.4782608695652174,
+          "f1": 0.5116279069767442
+        },
+        "insured_vehicle": {
+          "count": 4,
+          "exact_matches": 3,
+          "exact_match_accuracy": 0.75,
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571428571428571
+        },
+        "policy_number": {
+          "count": 17,
+          "exact_matches": 15,
+          "exact_match_accuracy": 0.8823529411764706,
+          "precision": 1.0,
+          "recall": 0.8823529411764706,
+          "f1": 0.9375
+        },
+        "reserve_amount": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "settlement_amount": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "vehicle_registration": {
+          "count": 4,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "micro_over_all_fields": {
+          "count": 124,
+          "exact_matches": 102,
+          "exact_match_accuracy": 0.8225806451612904,
+          "precision": 0.9107142857142857,
+          "recall": 0.8225806451612904,
+          "f1": 0.864406779661017
+        }
+      },
+      "clahe": {
+        "cause_of_loss": {
+          "count": 13,
+          "exact_matches": 13,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_decision": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_number": {
+          "count": 17,
+          "exact_matches": 17,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_status": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date_of_loss": {
+          "count": 17,
+          "exact_matches": 16,
+          "exact_match_accuracy": 0.9411764705882353,
+          "precision": 1.0,
+          "recall": 0.9411764705882353,
+          "f1": 0.9696969696969697
+        },
+        "date_reported": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "deductible": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "identification_number": {
+          "count": 6,
+          "exact_matches": 5,
+          "exact_match_accuracy": 0.8333333333333334,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "insured_name": {
+          "count": 23,
+          "exact_matches": 9,
+          "exact_match_accuracy": 0.391304347826087,
+          "precision": 0.45,
+          "recall": 0.391304347826087,
+          "f1": 0.4186046511627907
+        },
+        "insured_vehicle": {
+          "count": 4,
+          "exact_matches": 2,
+          "exact_match_accuracy": 0.5,
+          "precision": 0.6666666666666666,
+          "recall": 0.5,
+          "f1": 0.5714285714285714
+        },
+        "policy_number": {
+          "count": 17,
+          "exact_matches": 15,
+          "exact_match_accuracy": 0.8823529411764706,
+          "precision": 1.0,
+          "recall": 0.8823529411764706,
+          "f1": 0.9375
+        },
+        "reserve_amount": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "settlement_amount": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "vehicle_registration": {
+          "count": 4,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "micro_over_all_fields": {
+          "count": 124,
+          "exact_matches": 100,
+          "exact_match_accuracy": 0.8064516129032258,
+          "precision": 0.8849557522123894,
+          "recall": 0.8064516129032258,
+          "f1": 0.8438818565400844
+        }
+      },
+      "otsu_threshold": {
+        "cause_of_loss": {
+          "count": 13,
+          "exact_matches": 12,
+          "exact_match_accuracy": 0.9230769230769231,
+          "precision": 1.0,
+          "recall": 0.9230769230769231,
+          "f1": 0.96
+        },
+        "claim_decision": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_number": {
+          "count": 17,
+          "exact_matches": 12,
+          "exact_match_accuracy": 0.7058823529411765,
+          "precision": 1.0,
+          "recall": 0.7058823529411765,
+          "f1": 0.8275862068965517
+        },
+        "claim_status": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date_of_loss": {
+          "count": 17,
+          "exact_matches": 13,
+          "exact_match_accuracy": 0.7647058823529411,
+          "precision": 0.8666666666666667,
+          "recall": 0.7647058823529411,
+          "f1": 0.8125
+        },
+        "date_reported": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "deductible": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "identification_number": {
+          "count": 6,
+          "exact_matches": 2,
+          "exact_match_accuracy": 0.3333333333333333,
+          "precision": 0.5,
+          "recall": 0.3333333333333333,
+          "f1": 0.4
+        },
+        "insured_name": {
+          "count": 23,
+          "exact_matches": 8,
+          "exact_match_accuracy": 0.34782608695652173,
+          "precision": 0.5,
+          "recall": 0.34782608695652173,
+          "f1": 0.41025641025641024
+        },
+        "insured_vehicle": {
+          "count": 4,
+          "exact_matches": 3,
+          "exact_match_accuracy": 0.75,
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571428571428571
+        },
+        "policy_number": {
+          "count": 17,
+          "exact_matches": 13,
+          "exact_match_accuracy": 0.7647058823529411,
+          "precision": 1.0,
+          "recall": 0.7647058823529411,
+          "f1": 0.8666666666666667
+        },
+        "reserve_amount": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "settlement_amount": {
+          "count": 2,
+          "exact_matches": 1,
+          "exact_match_accuracy": 0.5,
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5
+        },
+        "vehicle_registration": {
+          "count": 4,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "micro_over_all_fields": {
+          "count": 124,
+          "exact_matches": 85,
+          "exact_match_accuracy": 0.6854838709677419,
+          "precision": 0.8585858585858586,
+          "recall": 0.6854838709677419,
+          "f1": 0.7623318385650224
+        }
+      },
+      "adaptive_threshold": {
+        "cause_of_loss": {
+          "count": 13,
+          "exact_matches": 13,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_decision": {
+          "count": 4,
+          "exact_matches": 3,
+          "exact_match_accuracy": 0.75,
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571428571428571
+        },
+        "claim_number": {
+          "count": 17,
+          "exact_matches": 8,
+          "exact_match_accuracy": 0.47058823529411764,
+          "precision": 1.0,
+          "recall": 0.47058823529411764,
+          "f1": 0.64
+        },
+        "claim_status": {
+          "count": 5,
+          "exact_matches": 4,
+          "exact_match_accuracy": 0.8,
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1": 0.8888888888888888
+        },
+        "date_of_loss": {
+          "count": 17,
+          "exact_matches": 9,
+          "exact_match_accuracy": 0.5294117647058824,
+          "precision": 0.75,
+          "recall": 0.5294117647058824,
+          "f1": 0.6206896551724138
+        },
+        "date_reported": {
+          "count": 5,
+          "exact_matches": 2,
+          "exact_match_accuracy": 0.4,
+          "precision": 0.4,
+          "recall": 0.4,
+          "f1": 0.4
+        },
+        "deductible": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "identification_number": {
+          "count": 6,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "insured_name": {
+          "count": 23,
+          "exact_matches": 9,
+          "exact_match_accuracy": 0.391304347826087,
+          "precision": 0.6,
+          "recall": 0.391304347826087,
+          "f1": 0.47368421052631576
+        },
+        "insured_vehicle": {
+          "count": 4,
+          "exact_matches": 1,
+          "exact_match_accuracy": 0.25,
+          "precision": 0.25,
+          "recall": 0.25,
+          "f1": 0.25
+        },
+        "policy_number": {
+          "count": 17,
+          "exact_matches": 15,
+          "exact_match_accuracy": 0.8823529411764706,
+          "precision": 1.0,
+          "recall": 0.8823529411764706,
+          "f1": 0.9375
+        },
+        "reserve_amount": {
+          "count": 5,
+          "exact_matches": 3,
+          "exact_match_accuracy": 0.6,
+          "precision": 0.75,
+          "recall": 0.6,
+          "f1": 0.6666666666666666
+        },
+        "settlement_amount": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "vehicle_registration": {
+          "count": 4,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "micro_over_all_fields": {
+          "count": 124,
+          "exact_matches": 71,
+          "exact_match_accuracy": 0.5725806451612904,
+          "precision": 0.8160919540229885,
+          "recall": 0.5725806451612904,
+          "f1": 0.6729857819905213
+        }
+      },
+      "gaussian_denoised": {
+        "cause_of_loss": {
+          "count": 13,
+          "exact_matches": 13,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_decision": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_number": {
+          "count": 17,
+          "exact_matches": 17,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_status": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date_of_loss": {
+          "count": 17,
+          "exact_matches": 16,
+          "exact_match_accuracy": 0.9411764705882353,
+          "precision": 0.9411764705882353,
+          "recall": 0.9411764705882353,
+          "f1": 0.9411764705882353
+        },
+        "date_reported": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "deductible": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "identification_number": {
+          "count": 6,
+          "exact_matches": 5,
+          "exact_match_accuracy": 0.8333333333333334,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "insured_name": {
+          "count": 23,
+          "exact_matches": 8,
+          "exact_match_accuracy": 0.34782608695652173,
+          "precision": 0.4444444444444444,
+          "recall": 0.34782608695652173,
+          "f1": 0.3902439024390244
+        },
+        "insured_vehicle": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "policy_number": {
+          "count": 17,
+          "exact_matches": 14,
+          "exact_match_accuracy": 0.8235294117647058,
+          "precision": 1.0,
+          "recall": 0.8235294117647058,
+          "f1": 0.9032258064516129
+        },
+        "reserve_amount": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "settlement_amount": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "vehicle_registration": {
+          "count": 4,
+          "exact_matches": 1,
+          "exact_match_accuracy": 0.25,
+          "precision": 0.5,
+          "recall": 0.25,
+          "f1": 0.3333333333333333
+        },
+        "micro_over_all_fields": {
+          "count": 124,
+          "exact_matches": 101,
+          "exact_match_accuracy": 0.8145161290322581,
+          "precision": 0.8938053097345132,
+          "recall": 0.8145161290322581,
+          "f1": 0.8523206751054853
+        }
+      },
+      "morphology": {
+        "cause_of_loss": {
+          "count": 13,
+          "exact_matches": 9,
+          "exact_match_accuracy": 0.6923076923076923,
+          "precision": 1.0,
+          "recall": 0.6923076923076923,
+          "f1": 0.8181818181818182
+        },
+        "claim_decision": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_number": {
+          "count": 17,
+          "exact_matches": 12,
+          "exact_match_accuracy": 0.7058823529411765,
+          "precision": 1.0,
+          "recall": 0.7058823529411765,
+          "f1": 0.8275862068965517
+        },
+        "claim_status": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date_of_loss": {
+          "count": 17,
+          "exact_matches": 6,
+          "exact_match_accuracy": 0.35294117647058826,
+          "precision": 0.6,
+          "recall": 0.35294117647058826,
+          "f1": 0.4444444444444444
+        },
+        "date_reported": {
+          "count": 5,
+          "exact_matches": 3,
+          "exact_match_accuracy": 0.6,
+          "precision": 0.6,
+          "recall": 0.6,
+          "f1": 0.6
+        },
+        "deductible": {
+          "count": 2,
+          "exact_matches": 1,
+          "exact_match_accuracy": 0.5,
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5
+        },
+        "identification_number": {
+          "count": 6,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "insured_name": {
+          "count": 23,
+          "exact_matches": 6,
+          "exact_match_accuracy": 0.2608695652173913,
+          "precision": 0.375,
+          "recall": 0.2608695652173913,
+          "f1": 0.3076923076923077
+        },
+        "insured_vehicle": {
+          "count": 4,
+          "exact_matches": 2,
+          "exact_match_accuracy": 0.5,
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5
+        },
+        "policy_number": {
+          "count": 17,
+          "exact_matches": 13,
+          "exact_match_accuracy": 0.7647058823529411,
+          "precision": 1.0,
+          "recall": 0.7647058823529411,
+          "f1": 0.8666666666666667
+        },
+        "reserve_amount": {
+          "count": 5,
+          "exact_matches": 4,
+          "exact_match_accuracy": 0.8,
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1": 0.8888888888888888
+        },
+        "settlement_amount": {
+          "count": 2,
+          "exact_matches": 1,
+          "exact_match_accuracy": 0.5,
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5
+        },
+        "vehicle_registration": {
+          "count": 4,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "micro_over_all_fields": {
+          "count": 124,
+          "exact_matches": 66,
+          "exact_match_accuracy": 0.532258064516129,
+          "precision": 0.75,
+          "recall": 0.532258064516129,
+          "f1": 0.6226415094339622
+        }
+      },
+      "deskewed": {
+        "cause_of_loss": {
+          "count": 13,
+          "exact_matches": 12,
+          "exact_match_accuracy": 0.9230769230769231,
+          "precision": 1.0,
+          "recall": 0.9230769230769231,
+          "f1": 0.96
+        },
+        "claim_decision": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_number": {
+          "count": 17,
+          "exact_matches": 17,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_status": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date_of_loss": {
+          "count": 17,
+          "exact_matches": 17,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date_reported": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "deductible": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "identification_number": {
+          "count": 6,
+          "exact_matches": 6,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "insured_name": {
+          "count": 23,
+          "exact_matches": 13,
+          "exact_match_accuracy": 0.5652173913043478,
+          "precision": 0.5909090909090909,
+          "recall": 0.5652173913043478,
+          "f1": 0.5777777777777777
+        },
+        "insured_vehicle": {
+          "count": 4,
+          "exact_matches": 3,
+          "exact_match_accuracy": 0.75,
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571428571428571
+        },
+        "policy_number": {
+          "count": 17,
+          "exact_matches": 14,
+          "exact_match_accuracy": 0.8235294117647058,
+          "precision": 1.0,
+          "recall": 0.8235294117647058,
+          "f1": 0.9032258064516129
+        },
+        "reserve_amount": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "settlement_amount": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "vehicle_registration": {
+          "count": 4,
+          "exact_matches": 1,
+          "exact_match_accuracy": 0.25,
+          "precision": 0.5,
+          "recall": 0.25,
+          "f1": 0.3333333333333333
+        },
+        "micro_over_all_fields": {
+          "count": 124,
+          "exact_matches": 106,
+          "exact_match_accuracy": 0.8548387096774194,
+          "precision": 0.9137931034482759,
+          "recall": 0.8548387096774194,
+          "f1": 0.8833333333333333
+        }
+      },
+      "histogram_equalized": {
+        "cause_of_loss": {
+          "count": 13,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "claim_decision": {
+          "count": 4,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "claim_number": {
+          "count": 17,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "claim_status": {
+          "count": 5,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "date_of_loss": {
+          "count": 17,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "date_reported": {
+          "count": 5,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "deductible": {
+          "count": 2,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "identification_number": {
+          "count": 6,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "insured_name": {
+          "count": 23,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "insured_vehicle": {
+          "count": 4,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "policy_number": {
+          "count": 17,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "reserve_amount": {
+          "count": 5,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "settlement_amount": {
+          "count": 2,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "vehicle_registration": {
+          "count": 4,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "micro_over_all_fields": {
+          "count": 124,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "global_threshold": {
+        "cause_of_loss": {
+          "count": 13,
+          "exact_matches": 13,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_decision": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_number": {
+          "count": 17,
+          "exact_matches": 17,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_status": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date_of_loss": {
+          "count": 17,
+          "exact_matches": 15,
+          "exact_match_accuracy": 0.8823529411764706,
+          "precision": 0.8823529411764706,
+          "recall": 0.8823529411764706,
+          "f1": 0.8823529411764706
+        },
+        "date_reported": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "deductible": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "identification_number": {
+          "count": 6,
+          "exact_matches": 2,
+          "exact_match_accuracy": 0.3333333333333333,
+          "precision": 0.5,
+          "recall": 0.3333333333333333,
+          "f1": 0.4
+        },
+        "insured_name": {
+          "count": 23,
+          "exact_matches": 8,
+          "exact_match_accuracy": 0.34782608695652173,
+          "precision": 0.47058823529411764,
+          "recall": 0.34782608695652173,
+          "f1": 0.4
+        },
+        "insured_vehicle": {
+          "count": 4,
+          "exact_matches": 3,
+          "exact_match_accuracy": 0.75,
+          "precision": 0.75,
+          "recall": 0.75,
+          "f1": 0.75
+        },
+        "policy_number": {
+          "count": 17,
+          "exact_matches": 15,
+          "exact_match_accuracy": 0.8823529411764706,
+          "precision": 1.0,
+          "recall": 0.8823529411764706,
+          "f1": 0.9375
+        },
+        "reserve_amount": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "settlement_amount": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "vehicle_registration": {
+          "count": 4,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "micro_over_all_fields": {
+          "count": 124,
+          "exact_matches": 96,
+          "exact_match_accuracy": 0.7741935483870968,
+          "precision": 0.8727272727272727,
+          "recall": 0.7741935483870968,
+          "f1": 0.8205128205128205
+        }
+      },
+      "denoised": {
+        "cause_of_loss": {
+          "count": 13,
+          "exact_matches": 13,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_decision": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_number": {
+          "count": 17,
+          "exact_matches": 17,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_status": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date_of_loss": {
+          "count": 17,
+          "exact_matches": 16,
+          "exact_match_accuracy": 0.9411764705882353,
+          "precision": 0.9411764705882353,
+          "recall": 0.9411764705882353,
+          "f1": 0.9411764705882353
+        },
+        "date_reported": {
+          "count": 5,
+          "exact_matches": 4,
+          "exact_match_accuracy": 0.8,
+          "precision": 0.8,
+          "recall": 0.8,
+          "f1": 0.8
+        },
+        "deductible": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "identification_number": {
+          "count": 6,
+          "exact_matches": 4,
+          "exact_match_accuracy": 0.6666666666666666,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8
+        },
+        "insured_name": {
+          "count": 23,
+          "exact_matches": 7,
+          "exact_match_accuracy": 0.30434782608695654,
+          "precision": 0.4666666666666667,
+          "recall": 0.30434782608695654,
+          "f1": 0.3684210526315789
+        },
+        "insured_vehicle": {
+          "count": 4,
+          "exact_matches": 3,
+          "exact_match_accuracy": 0.75,
+          "precision": 0.75,
+          "recall": 0.75,
+          "f1": 0.75
+        },
+        "policy_number": {
+          "count": 17,
+          "exact_matches": 15,
+          "exact_match_accuracy": 0.8823529411764706,
+          "precision": 1.0,
+          "recall": 0.8823529411764706,
+          "f1": 0.9375
+        },
+        "reserve_amount": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "settlement_amount": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "vehicle_registration": {
+          "count": 4,
+          "exact_matches": 1,
+          "exact_match_accuracy": 0.25,
+          "precision": 0.5,
+          "recall": 0.25,
+          "f1": 0.3333333333333333
+        },
+        "micro_over_all_fields": {
+          "count": 124,
+          "exact_matches": 98,
+          "exact_match_accuracy": 0.7903225806451613,
+          "precision": 0.8909090909090909,
+          "recall": 0.7903225806451613,
+          "f1": 0.8376068376068376
+        }
+      }
+    },
+    "11": {
+      "original": {
+        "cause_of_loss": {
+          "count": 13,
+          "exact_matches": 13,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_decision": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_number": {
+          "count": 17,
+          "exact_matches": 13,
+          "exact_match_accuracy": 0.7647058823529411,
+          "precision": 1.0,
+          "recall": 0.7647058823529411,
+          "f1": 0.8666666666666667
+        },
+        "claim_status": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date_of_loss": {
+          "count": 17,
+          "exact_matches": 12,
+          "exact_match_accuracy": 0.7058823529411765,
+          "precision": 0.8,
+          "recall": 0.7058823529411765,
+          "f1": 0.75
+        },
+        "date_reported": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "deductible": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "identification_number": {
+          "count": 6,
+          "exact_matches": 5,
+          "exact_match_accuracy": 0.8333333333333334,
+          "precision": 0.8333333333333334,
+          "recall": 0.8333333333333334,
+          "f1": 0.8333333333333334
+        },
+        "insured_name": {
+          "count": 23,
+          "exact_matches": 12,
+          "exact_match_accuracy": 0.5217391304347826,
+          "precision": 0.5714285714285714,
+          "recall": 0.5217391304347826,
+          "f1": 0.5454545454545454
+        },
+        "insured_vehicle": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "policy_number": {
+          "count": 17,
+          "exact_matches": 15,
+          "exact_match_accuracy": 0.8823529411764706,
+          "precision": 1.0,
+          "recall": 0.8823529411764706,
+          "f1": 0.9375
+        },
+        "reserve_amount": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "settlement_amount": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "vehicle_registration": {
+          "count": 4,
+          "exact_matches": 1,
+          "exact_match_accuracy": 0.25,
+          "precision": 0.5,
+          "recall": 0.25,
+          "f1": 0.3333333333333333
+        },
+        "micro_over_all_fields": {
+          "count": 124,
+          "exact_matches": 98,
+          "exact_match_accuracy": 0.7903225806451613,
+          "precision": 0.875,
+          "recall": 0.7903225806451613,
+          "f1": 0.8305084745762712
+        }
+      },
+      "grayscale": {
+        "cause_of_loss": {
+          "count": 13,
+          "exact_matches": 13,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_decision": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_number": {
+          "count": 17,
+          "exact_matches": 13,
+          "exact_match_accuracy": 0.7647058823529411,
+          "precision": 1.0,
+          "recall": 0.7647058823529411,
+          "f1": 0.8666666666666667
+        },
+        "claim_status": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date_of_loss": {
+          "count": 17,
+          "exact_matches": 12,
+          "exact_match_accuracy": 0.7058823529411765,
+          "precision": 0.8,
+          "recall": 0.7058823529411765,
+          "f1": 0.75
+        },
+        "date_reported": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "deductible": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "identification_number": {
+          "count": 6,
+          "exact_matches": 5,
+          "exact_match_accuracy": 0.8333333333333334,
+          "precision": 0.8333333333333334,
+          "recall": 0.8333333333333334,
+          "f1": 0.8333333333333334
+        },
+        "insured_name": {
+          "count": 23,
+          "exact_matches": 12,
+          "exact_match_accuracy": 0.5217391304347826,
+          "precision": 0.5714285714285714,
+          "recall": 0.5217391304347826,
+          "f1": 0.5454545454545454
+        },
+        "insured_vehicle": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "policy_number": {
+          "count": 17,
+          "exact_matches": 15,
+          "exact_match_accuracy": 0.8823529411764706,
+          "precision": 1.0,
+          "recall": 0.8823529411764706,
+          "f1": 0.9375
+        },
+        "reserve_amount": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "settlement_amount": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "vehicle_registration": {
+          "count": 4,
+          "exact_matches": 1,
+          "exact_match_accuracy": 0.25,
+          "precision": 0.5,
+          "recall": 0.25,
+          "f1": 0.3333333333333333
+        },
+        "micro_over_all_fields": {
+          "count": 124,
+          "exact_matches": 98,
+          "exact_match_accuracy": 0.7903225806451613,
+          "precision": 0.875,
+          "recall": 0.7903225806451613,
+          "f1": 0.8305084745762712
+        }
+      },
+      "clahe": {
+        "cause_of_loss": {
+          "count": 13,
+          "exact_matches": 13,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_decision": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_number": {
+          "count": 17,
+          "exact_matches": 14,
+          "exact_match_accuracy": 0.8235294117647058,
+          "precision": 1.0,
+          "recall": 0.8235294117647058,
+          "f1": 0.9032258064516129
+        },
+        "claim_status": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date_of_loss": {
+          "count": 17,
+          "exact_matches": 15,
+          "exact_match_accuracy": 0.8823529411764706,
+          "precision": 0.9375,
+          "recall": 0.8823529411764706,
+          "f1": 0.9090909090909091
+        },
+        "date_reported": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "deductible": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "identification_number": {
+          "count": 6,
+          "exact_matches": 5,
+          "exact_match_accuracy": 0.8333333333333334,
+          "precision": 0.8333333333333334,
+          "recall": 0.8333333333333334,
+          "f1": 0.8333333333333334
+        },
+        "insured_name": {
+          "count": 23,
+          "exact_matches": 8,
+          "exact_match_accuracy": 0.34782608695652173,
+          "precision": 0.36363636363636365,
+          "recall": 0.34782608695652173,
+          "f1": 0.35555555555555557
+        },
+        "insured_vehicle": {
+          "count": 4,
+          "exact_matches": 3,
+          "exact_match_accuracy": 0.75,
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571428571428571
+        },
+        "policy_number": {
+          "count": 17,
+          "exact_matches": 13,
+          "exact_match_accuracy": 0.7647058823529411,
+          "precision": 1.0,
+          "recall": 0.7647058823529411,
+          "f1": 0.8666666666666667
+        },
+        "reserve_amount": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "settlement_amount": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "vehicle_registration": {
+          "count": 4,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "micro_over_all_fields": {
+          "count": 124,
+          "exact_matches": 94,
+          "exact_match_accuracy": 0.7580645161290323,
+          "precision": 0.8468468468468469,
+          "recall": 0.7580645161290323,
+          "f1": 0.8
+        }
+      },
+      "otsu_threshold": {
+        "cause_of_loss": {
+          "count": 13,
+          "exact_matches": 12,
+          "exact_match_accuracy": 0.9230769230769231,
+          "precision": 1.0,
+          "recall": 0.9230769230769231,
+          "f1": 0.96
+        },
+        "claim_decision": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_number": {
+          "count": 17,
+          "exact_matches": 11,
+          "exact_match_accuracy": 0.6470588235294118,
+          "precision": 1.0,
+          "recall": 0.6470588235294118,
+          "f1": 0.7857142857142857
+        },
+        "claim_status": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date_of_loss": {
+          "count": 17,
+          "exact_matches": 11,
+          "exact_match_accuracy": 0.6470588235294118,
+          "precision": 0.7333333333333333,
+          "recall": 0.6470588235294118,
+          "f1": 0.6875
+        },
+        "date_reported": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "deductible": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "identification_number": {
+          "count": 6,
+          "exact_matches": 1,
+          "exact_match_accuracy": 0.16666666666666666,
+          "precision": 0.5,
+          "recall": 0.16666666666666666,
+          "f1": 0.25
+        },
+        "insured_name": {
+          "count": 23,
+          "exact_matches": 8,
+          "exact_match_accuracy": 0.34782608695652173,
+          "precision": 0.47058823529411764,
+          "recall": 0.34782608695652173,
+          "f1": 0.4
+        },
+        "insured_vehicle": {
+          "count": 4,
+          "exact_matches": 2,
+          "exact_match_accuracy": 0.5,
+          "precision": 0.6666666666666666,
+          "recall": 0.5,
+          "f1": 0.5714285714285714
+        },
+        "policy_number": {
+          "count": 17,
+          "exact_matches": 13,
+          "exact_match_accuracy": 0.7647058823529411,
+          "precision": 0.9285714285714286,
+          "recall": 0.7647058823529411,
+          "f1": 0.8387096774193549
+        },
+        "reserve_amount": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "settlement_amount": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "vehicle_registration": {
+          "count": 4,
+          "exact_matches": 1,
+          "exact_match_accuracy": 0.25,
+          "precision": 0.5,
+          "recall": 0.25,
+          "f1": 0.3333333333333333
+        },
+        "micro_over_all_fields": {
+          "count": 124,
+          "exact_matches": 82,
+          "exact_match_accuracy": 0.6612903225806451,
+          "precision": 0.8282828282828283,
+          "recall": 0.6612903225806451,
+          "f1": 0.7354260089686099
+        }
+      },
+      "adaptive_threshold": {
+        "cause_of_loss": {
+          "count": 13,
+          "exact_matches": 13,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_decision": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_number": {
+          "count": 17,
+          "exact_matches": 7,
+          "exact_match_accuracy": 0.4117647058823529,
+          "precision": 1.0,
+          "recall": 0.4117647058823529,
+          "f1": 0.5833333333333334
+        },
+        "claim_status": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date_of_loss": {
+          "count": 17,
+          "exact_matches": 16,
+          "exact_match_accuracy": 0.9411764705882353,
+          "precision": 0.9411764705882353,
+          "recall": 0.9411764705882353,
+          "f1": 0.9411764705882353
+        },
+        "date_reported": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "deductible": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "identification_number": {
+          "count": 6,
+          "exact_matches": 3,
+          "exact_match_accuracy": 0.5,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666
+        },
+        "insured_name": {
+          "count": 23,
+          "exact_matches": 7,
+          "exact_match_accuracy": 0.30434782608695654,
+          "precision": 0.4666666666666667,
+          "recall": 0.30434782608695654,
+          "f1": 0.3684210526315789
+        },
+        "insured_vehicle": {
+          "count": 4,
+          "exact_matches": 2,
+          "exact_match_accuracy": 0.5,
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5
+        },
+        "policy_number": {
+          "count": 17,
+          "exact_matches": 12,
+          "exact_match_accuracy": 0.7058823529411765,
+          "precision": 1.0,
+          "recall": 0.7058823529411765,
+          "f1": 0.8275862068965517
+        },
+        "reserve_amount": {
+          "count": 5,
+          "exact_matches": 2,
+          "exact_match_accuracy": 0.4,
+          "precision": 1.0,
+          "recall": 0.4,
+          "f1": 0.5714285714285714
+        },
+        "settlement_amount": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "vehicle_registration": {
+          "count": 4,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "micro_over_all_fields": {
+          "count": 124,
+          "exact_matches": 80,
+          "exact_match_accuracy": 0.6451612903225806,
+          "precision": 0.8791208791208791,
+          "recall": 0.6451612903225806,
+          "f1": 0.7441860465116279
+        }
+      },
+      "gaussian_denoised": {
+        "cause_of_loss": {
+          "count": 13,
+          "exact_matches": 13,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_decision": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_number": {
+          "count": 17,
+          "exact_matches": 13,
+          "exact_match_accuracy": 0.7647058823529411,
+          "precision": 1.0,
+          "recall": 0.7647058823529411,
+          "f1": 0.8666666666666667
+        },
+        "claim_status": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date_of_loss": {
+          "count": 17,
+          "exact_matches": 15,
+          "exact_match_accuracy": 0.8823529411764706,
+          "precision": 0.9375,
+          "recall": 0.8823529411764706,
+          "f1": 0.9090909090909091
+        },
+        "date_reported": {
+          "count": 5,
+          "exact_matches": 3,
+          "exact_match_accuracy": 0.6,
+          "precision": 0.75,
+          "recall": 0.6,
+          "f1": 0.6666666666666666
+        },
+        "deductible": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "identification_number": {
+          "count": 6,
+          "exact_matches": 3,
+          "exact_match_accuracy": 0.5,
+          "precision": 0.75,
+          "recall": 0.5,
+          "f1": 0.6
+        },
+        "insured_name": {
+          "count": 23,
+          "exact_matches": 8,
+          "exact_match_accuracy": 0.34782608695652173,
+          "precision": 0.4444444444444444,
+          "recall": 0.34782608695652173,
+          "f1": 0.3902439024390244
+        },
+        "insured_vehicle": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "policy_number": {
+          "count": 17,
+          "exact_matches": 13,
+          "exact_match_accuracy": 0.7647058823529411,
+          "precision": 1.0,
+          "recall": 0.7647058823529411,
+          "f1": 0.8666666666666667
+        },
+        "reserve_amount": {
+          "count": 5,
+          "exact_matches": 2,
+          "exact_match_accuracy": 0.4,
+          "precision": 1.0,
+          "recall": 0.4,
+          "f1": 0.5714285714285714
+        },
+        "settlement_amount": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "vehicle_registration": {
+          "count": 4,
+          "exact_matches": 1,
+          "exact_match_accuracy": 0.25,
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1": 0.4
+        },
+        "micro_over_all_fields": {
+          "count": 124,
+          "exact_matches": 88,
+          "exact_match_accuracy": 0.7096774193548387,
+          "precision": 0.8712871287128713,
+          "recall": 0.7096774193548387,
+          "f1": 0.7822222222222223
+        }
+      },
+      "morphology": {
+        "cause_of_loss": {
+          "count": 13,
+          "exact_matches": 8,
+          "exact_match_accuracy": 0.6153846153846154,
+          "precision": 0.8888888888888888,
+          "recall": 0.6153846153846154,
+          "f1": 0.7272727272727273
+        },
+        "claim_decision": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_number": {
+          "count": 17,
+          "exact_matches": 10,
+          "exact_match_accuracy": 0.5882352941176471,
+          "precision": 1.0,
+          "recall": 0.5882352941176471,
+          "f1": 0.7407407407407407
+        },
+        "claim_status": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date_of_loss": {
+          "count": 17,
+          "exact_matches": 7,
+          "exact_match_accuracy": 0.4117647058823529,
+          "precision": 0.7,
+          "recall": 0.4117647058823529,
+          "f1": 0.5185185185185185
+        },
+        "date_reported": {
+          "count": 5,
+          "exact_matches": 3,
+          "exact_match_accuracy": 0.6,
+          "precision": 0.6,
+          "recall": 0.6,
+          "f1": 0.6
+        },
+        "deductible": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "identification_number": {
+          "count": 6,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "insured_name": {
+          "count": 23,
+          "exact_matches": 8,
+          "exact_match_accuracy": 0.34782608695652173,
+          "precision": 0.5714285714285714,
+          "recall": 0.34782608695652173,
+          "f1": 0.43243243243243246
+        },
+        "insured_vehicle": {
+          "count": 4,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "policy_number": {
+          "count": 17,
+          "exact_matches": 13,
+          "exact_match_accuracy": 0.7647058823529411,
+          "precision": 1.0,
+          "recall": 0.7647058823529411,
+          "f1": 0.8666666666666667
+        },
+        "reserve_amount": {
+          "count": 5,
+          "exact_matches": 2,
+          "exact_match_accuracy": 0.4,
+          "precision": 1.0,
+          "recall": 0.4,
+          "f1": 0.5714285714285714
+        },
+        "settlement_amount": {
+          "count": 2,
+          "exact_matches": 1,
+          "exact_match_accuracy": 0.5,
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5
+        },
+        "vehicle_registration": {
+          "count": 4,
+          "exact_matches": 1,
+          "exact_match_accuracy": 0.25,
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1": 0.4
+        },
+        "micro_over_all_fields": {
+          "count": 124,
+          "exact_matches": 64,
+          "exact_match_accuracy": 0.5161290322580645,
+          "precision": 0.7804878048780488,
+          "recall": 0.5161290322580645,
+          "f1": 0.6213592233009708
+        }
+      },
+      "deskewed": {
+        "cause_of_loss": {
+          "count": 13,
+          "exact_matches": 11,
+          "exact_match_accuracy": 0.8461538461538461,
+          "precision": 0.9166666666666666,
+          "recall": 0.8461538461538461,
+          "f1": 0.88
+        },
+        "claim_decision": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_number": {
+          "count": 17,
+          "exact_matches": 13,
+          "exact_match_accuracy": 0.7647058823529411,
+          "precision": 1.0,
+          "recall": 0.7647058823529411,
+          "f1": 0.8666666666666667
+        },
+        "claim_status": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date_of_loss": {
+          "count": 17,
+          "exact_matches": 16,
+          "exact_match_accuracy": 0.9411764705882353,
+          "precision": 0.9411764705882353,
+          "recall": 0.9411764705882353,
+          "f1": 0.9411764705882353
+        },
+        "date_reported": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "deductible": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "identification_number": {
+          "count": 6,
+          "exact_matches": 6,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "insured_name": {
+          "count": 23,
+          "exact_matches": 14,
+          "exact_match_accuracy": 0.6086956521739131,
+          "precision": 0.7,
+          "recall": 0.6086956521739131,
+          "f1": 0.6511627906976745
+        },
+        "insured_vehicle": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "policy_number": {
+          "count": 17,
+          "exact_matches": 15,
+          "exact_match_accuracy": 0.8823529411764706,
+          "precision": 1.0,
+          "recall": 0.8823529411764706,
+          "f1": 0.9375
+        },
+        "reserve_amount": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "settlement_amount": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "vehicle_registration": {
+          "count": 4,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "micro_over_all_fields": {
+          "count": 124,
+          "exact_matches": 102,
+          "exact_match_accuracy": 0.8225806451612904,
+          "precision": 0.9107142857142857,
+          "recall": 0.8225806451612904,
+          "f1": 0.864406779661017
+        }
+      },
+      "histogram_equalized": {
+        "cause_of_loss": {
+          "count": 13,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "claim_decision": {
+          "count": 4,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "claim_number": {
+          "count": 17,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "claim_status": {
+          "count": 5,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "date_of_loss": {
+          "count": 17,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "date_reported": {
+          "count": 5,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "deductible": {
+          "count": 2,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "identification_number": {
+          "count": 6,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "insured_name": {
+          "count": 23,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "insured_vehicle": {
+          "count": 4,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "policy_number": {
+          "count": 17,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "reserve_amount": {
+          "count": 5,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "settlement_amount": {
+          "count": 2,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "vehicle_registration": {
+          "count": 4,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "micro_over_all_fields": {
+          "count": 124,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "global_threshold": {
+        "cause_of_loss": {
+          "count": 13,
+          "exact_matches": 13,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_decision": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_number": {
+          "count": 17,
+          "exact_matches": 13,
+          "exact_match_accuracy": 0.7647058823529411,
+          "precision": 1.0,
+          "recall": 0.7647058823529411,
+          "f1": 0.8666666666666667
+        },
+        "claim_status": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date_of_loss": {
+          "count": 17,
+          "exact_matches": 16,
+          "exact_match_accuracy": 0.9411764705882353,
+          "precision": 1.0,
+          "recall": 0.9411764705882353,
+          "f1": 0.9696969696969697
+        },
+        "date_reported": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "deductible": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "identification_number": {
+          "count": 6,
+          "exact_matches": 1,
+          "exact_match_accuracy": 0.16666666666666666,
+          "precision": 1.0,
+          "recall": 0.16666666666666666,
+          "f1": 0.2857142857142857
+        },
+        "insured_name": {
+          "count": 23,
+          "exact_matches": 8,
+          "exact_match_accuracy": 0.34782608695652173,
+          "precision": 0.5,
+          "recall": 0.34782608695652173,
+          "f1": 0.41025641025641024
+        },
+        "insured_vehicle": {
+          "count": 4,
+          "exact_matches": 3,
+          "exact_match_accuracy": 0.75,
+          "precision": 0.75,
+          "recall": 0.75,
+          "f1": 0.75
+        },
+        "policy_number": {
+          "count": 17,
+          "exact_matches": 13,
+          "exact_match_accuracy": 0.7647058823529411,
+          "precision": 0.8125,
+          "recall": 0.7647058823529411,
+          "f1": 0.7878787878787878
+        },
+        "reserve_amount": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "settlement_amount": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "vehicle_registration": {
+          "count": 4,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "micro_over_all_fields": {
+          "count": 124,
+          "exact_matches": 90,
+          "exact_match_accuracy": 0.7258064516129032,
+          "precision": 0.8653846153846154,
+          "recall": 0.7258064516129032,
+          "f1": 0.7894736842105263
+        }
+      },
+      "denoised": {
+        "cause_of_loss": {
+          "count": 13,
+          "exact_matches": 12,
+          "exact_match_accuracy": 0.9230769230769231,
+          "precision": 1.0,
+          "recall": 0.9230769230769231,
+          "f1": 0.96
+        },
+        "claim_decision": {
+          "count": 4,
+          "exact_matches": 4,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "claim_number": {
+          "count": 17,
+          "exact_matches": 13,
+          "exact_match_accuracy": 0.7647058823529411,
+          "precision": 1.0,
+          "recall": 0.7647058823529411,
+          "f1": 0.8666666666666667
+        },
+        "claim_status": {
+          "count": 5,
+          "exact_matches": 5,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date_of_loss": {
+          "count": 17,
+          "exact_matches": 14,
+          "exact_match_accuracy": 0.8235294117647058,
+          "precision": 0.875,
+          "recall": 0.8235294117647058,
+          "f1": 0.8484848484848485
+        },
+        "date_reported": {
+          "count": 5,
+          "exact_matches": 4,
+          "exact_match_accuracy": 0.8,
+          "precision": 0.8,
+          "recall": 0.8,
+          "f1": 0.8
+        },
+        "deductible": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "identification_number": {
+          "count": 6,
+          "exact_matches": 3,
+          "exact_match_accuracy": 0.5,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666
+        },
+        "insured_name": {
+          "count": 23,
+          "exact_matches": 7,
+          "exact_match_accuracy": 0.30434782608695654,
+          "precision": 0.4666666666666667,
+          "recall": 0.30434782608695654,
+          "f1": 0.3684210526315789
+        },
+        "insured_vehicle": {
+          "count": 4,
+          "exact_matches": 3,
+          "exact_match_accuracy": 0.75,
+          "precision": 0.75,
+          "recall": 0.75,
+          "f1": 0.75
+        },
+        "policy_number": {
+          "count": 17,
+          "exact_matches": 14,
+          "exact_match_accuracy": 0.8235294117647058,
+          "precision": 1.0,
+          "recall": 0.8235294117647058,
+          "f1": 0.9032258064516129
+        },
+        "reserve_amount": {
+          "count": 5,
+          "exact_matches": 4,
+          "exact_match_accuracy": 0.8,
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1": 0.8888888888888888
+        },
+        "settlement_amount": {
+          "count": 2,
+          "exact_matches": 2,
+          "exact_match_accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "vehicle_registration": {
+          "count": 4,
+          "exact_matches": 0,
+          "exact_match_accuracy": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "micro_over_all_fields": {
+          "count": 124,
+          "exact_matches": 87,
+          "exact_match_accuracy": 0.7016129032258065,
+          "precision": 0.87,
+          "recall": 0.7016129032258065,
+          "f1": 0.7767857142857143
+        }
+      }
+    }
+  },
+  "cross_document_validation_baseline": "PSM 3, original variant",
+  "cross_document_checks": [
+    {
+      "case_id": "C-1000",
+      "rule": "cause_of_loss_consistency",
+      "field": "cause_of_loss",
+      "status": "VERIFIED",
+      "expected_value": "business_interruption",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1000-FNOL-SCAN",
+          "filename": "C-1000-fnol-scanned.jpg",
+          "value": "business interruption",
+          "evidence": "business interruption"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1000",
+      "rule": "claim_decision_consistency",
+      "field": "claim_decision",
+      "status": "VERIFIED",
+      "expected_value": "approved",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1000-SETTLEMENT-SCAN",
+          "filename": "C-1000-settlement-letter-scanned.jpg",
+          "value": "approved",
+          "evidence": "approved"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1000",
+      "rule": "claim_number_consistency",
+      "field": "claim_number",
+      "status": "VERIFIED",
+      "expected_value": "C-1000",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1000-FNOL-SCAN",
+          "filename": "C-1000-fnol-scanned.jpg",
+          "value": "C-1000",
+          "evidence": "C-1000"
+        },
+        {
+          "document_id": "DOC-C-1000-SETTLEMENT-SCAN",
+          "filename": "C-1000-settlement-letter-scanned.jpg",
+          "value": "C-1000",
+          "evidence": "C-1000"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1000",
+      "rule": "claim_status_consistency",
+      "field": "claim_status",
+      "status": "VERIFIED",
+      "expected_value": "closed",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1000-FNOL-SCAN",
+          "filename": "C-1000-fnol-scanned.jpg",
+          "value": "CLOSED",
+          "evidence": "CLOSED"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1000",
+      "rule": "date_of_loss_consistency",
+      "field": "date_of_loss",
+      "status": "VERIFIED",
+      "expected_value": "2024-07-13",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1000-FNOL-SCAN",
+          "filename": "C-1000-fnol-scanned.jpg",
+          "value": "2024-07-13",
+          "evidence": "13/07/2024"
+        },
+        {
+          "document_id": "DOC-C-1000-SETTLEMENT-SCAN",
+          "filename": "C-1000-settlement-letter-scanned.jpg",
+          "value": "2024-07-13",
+          "evidence": "13/07/2024"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1000",
+      "rule": "date_reported_consistency",
+      "field": "date_reported",
+      "status": "VERIFIED",
+      "expected_value": "2024-07-21",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1000-FNOL-SCAN",
+          "filename": "C-1000-fnol-scanned.jpg",
+          "value": "2024-07-21",
+          "evidence": "21/07/2024"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1000",
+      "rule": "deductible_consistency",
+      "field": "deductible",
+      "status": "VERIFIED",
+      "expected_value": 2500.0,
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1000-SETTLEMENT-SCAN",
+          "filename": "C-1000-settlement-letter-scanned.jpg",
+          "value": "2500.00",
+          "evidence": "€2,500.00"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1000",
+      "rule": "insured_name_consistency",
+      "field": "insured_name",
+      "status": "VERIFIED",
+      "expected_value": "Mr. Stewart Montague",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1000-FNOL-SCAN",
+          "filename": "C-1000-fnol-scanned.jpg",
+          "value": "Mr. Stewart Montague",
+          "evidence": "Mr. Stewart Montague"
+        },
+        {
+          "document_id": "DOC-C-1000-SETTLEMENT-SCAN",
+          "filename": "C-1000-settlement-letter-scanned.jpg",
+          "value": "Mr. Stewart Montague",
+          "evidence": "Mr. Stewart Montague"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1000",
+      "rule": "policy_number_consistency",
+      "field": "policy_number",
+      "status": "VERIFIED",
+      "expected_value": "COM-0000001",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1000-FNOL-SCAN",
+          "filename": "C-1000-fnol-scanned.jpg",
+          "value": "COM-0000001",
+          "evidence": "COM-0000001"
+        },
+        {
+          "document_id": "DOC-C-1000-SETTLEMENT-SCAN",
+          "filename": "C-1000-settlement-letter-scanned.jpg",
+          "value": "COM-0000001",
+          "evidence": "COM-0000001"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1000",
+      "rule": "reserve_amount_consistency",
+      "field": "reserve_amount",
+      "status": "VERIFIED",
+      "expected_value": 0.0,
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1000-FNOL-SCAN",
+          "filename": "C-1000-fnol-scanned.jpg",
+          "value": "0.00",
+          "evidence": "€0.00"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1000",
+      "rule": "settlement_amount_consistency",
+      "field": "settlement_amount",
+      "status": "VERIFIED",
+      "expected_value": 10650.0,
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1000-SETTLEMENT-SCAN",
+          "filename": "C-1000-settlement-letter-scanned.jpg",
+          "value": "10650.00",
+          "evidence": "€10,650.00"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1001",
+      "rule": "cause_of_loss_consistency",
+      "field": "cause_of_loss",
+      "status": "VERIFIED",
+      "expected_value": "vandalism",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1001-ACCIDENT-SCAN",
+          "filename": "C-1001-accident-statement-scanned.jpg",
+          "value": "vandalism",
+          "evidence": "vandalism"
+        },
+        {
+          "document_id": "DOC-C-1001-FNOL-SCAN",
+          "filename": "C-1001-fnol-scanned.jpg",
+          "value": "vandalism",
+          "evidence": "vandalism"
+        },
+        {
+          "document_id": "DOC-C-1001-POLICE",
+          "filename": "C-1001-police-report-scanned.jpg",
+          "value": "vandalism",
+          "evidence": "vandalism"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1001",
+      "rule": "claim_number_consistency",
+      "field": "claim_number",
+      "status": "VERIFIED",
+      "expected_value": "C-1001",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1001-ACCIDENT-SCAN",
+          "filename": "C-1001-accident-statement-scanned.jpg",
+          "value": "C-1001",
+          "evidence": "C-1001"
+        },
+        {
+          "document_id": "DOC-C-1001-FNOL-SCAN",
+          "filename": "C-1001-fnol-scanned.jpg",
+          "value": "C-1001",
+          "evidence": "C-1001"
+        },
+        {
+          "document_id": "DOC-C-1001-POLICE",
+          "filename": "C-1001-police-report-scanned.jpg",
+          "value": "C-1001",
+          "evidence": "C-1001"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1001",
+      "rule": "claim_status_consistency",
+      "field": "claim_status",
+      "status": "VERIFIED",
+      "expected_value": "open",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1001-FNOL-SCAN",
+          "filename": "C-1001-fnol-scanned.jpg",
+          "value": "OPEN",
+          "evidence": "OPEN"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1001",
+      "rule": "date_of_loss_consistency",
+      "field": "date_of_loss",
+      "status": "MANUAL_REVIEW_REQUIRED",
+      "expected_value": "2024-02-17",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1001-ACCIDENT-SCAN",
+          "filename": "C-1001-accident-statement-scanned.jpg",
+          "value": null,
+          "evidence": "47/02/2024"
+        },
+        {
+          "document_id": "DOC-C-1001-FNOL-SCAN",
+          "filename": "C-1001-fnol-scanned.jpg",
+          "value": "2024-02-17",
+          "evidence": "17/02/2024"
+        },
+        {
+          "document_id": "DOC-C-1001-POLICE",
+          "filename": "C-1001-police-report-scanned.jpg",
+          "value": "2024-02-17",
+          "evidence": "17/02/2024"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1001",
+      "rule": "date_reported_consistency",
+      "field": "date_reported",
+      "status": "VERIFIED",
+      "expected_value": "2024-02-25",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1001-FNOL-SCAN",
+          "filename": "C-1001-fnol-scanned.jpg",
+          "value": "2024-02-25",
+          "evidence": "25/02/2024"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1001",
+      "rule": "insured_name_consistency",
+      "field": "insured_name",
+      "status": "MISMATCHED",
+      "expected_value": "Dott. Alfio Leone",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1001-ACCIDENT-SCAN",
+          "filename": "C-1001-accident-statement-scanned.jpg",
+          "value": "Dott. Alfio Leone",
+          "evidence": "Dott. Alfio Leone"
+        },
+        {
+          "document_id": "DOC-C-1001-FNOL-SCAN",
+          "filename": "C-1001-fnol-scanned.jpg",
+          "value": "Dott. Alfio Leone",
+          "evidence": "Dott. Alfio Leone"
+        },
+        {
+          "document_id": "DOC-C-1001-POLICE",
+          "filename": "C-1001-police-report-scanned.jpg",
+          "value": "Dott. Alfio Leone\nVehicle Peugeot",
+          "evidence": "Dott. Alfio Leone\nVehicle Peugeot"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1001",
+      "rule": "insured_vehicle_consistency",
+      "field": "insured_vehicle",
+      "status": "MISMATCHED",
+      "expected_value": "Peugeot 208 (2016, black)",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1001-ACCIDENT-SCAN",
+          "filename": "C-1001-accident-statement-scanned.jpg",
+          "value": "Peugeot 208 (2048, black)",
+          "evidence": "Peugeot 208 (2048, black)"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1001",
+      "rule": "policy_number_consistency",
+      "field": "policy_number",
+      "status": "MANUAL_REVIEW_REQUIRED",
+      "expected_value": "MOT-0000002",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1001-ACCIDENT-SCAN",
+          "filename": "C-1001-accident-statement-scanned.jpg",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "document_id": "DOC-C-1001-FNOL-SCAN",
+          "filename": "C-1001-fnol-scanned.jpg",
+          "value": "MOT-0000002",
+          "evidence": "MOT-0000002"
+        },
+        {
+          "document_id": "DOC-C-1001-POLICE",
+          "filename": "C-1001-police-report-scanned.jpg",
+          "value": "MOT-0000002",
+          "evidence": "MOT-0000002"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1001",
+      "rule": "reserve_amount_consistency",
+      "field": "reserve_amount",
+      "status": "VERIFIED",
+      "expected_value": 2050.0,
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1001-FNOL-SCAN",
+          "filename": "C-1001-fnol-scanned.jpg",
+          "value": "2050.00",
+          "evidence": "€2,050.00"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1001",
+      "rule": "vehicle_registration_consistency",
+      "field": "vehicle_registration",
+      "status": "VERIFIED",
+      "expected_value": "HX-9830-IX",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1001-ACCIDENT-SCAN",
+          "filename": "C-1001-accident-statement-scanned.jpg",
+          "value": "HX-9830-IX",
+          "evidence": "HX-9830-IX"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1002",
+      "rule": "cause_of_loss_consistency",
+      "field": "cause_of_loss",
+      "status": "VERIFIED",
+      "expected_value": "theft",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1002-ACCIDENT-SCAN",
+          "filename": "C-1002-accident-statement-scanned.jpg",
+          "value": "theft",
+          "evidence": "theft"
+        },
+        {
+          "document_id": "DOC-C-1002-FNOL-SCAN",
+          "filename": "C-1002-fnol-scanned.jpg",
+          "value": "theft",
+          "evidence": "theft"
+        },
+        {
+          "document_id": "DOC-C-1002-POLICE",
+          "filename": "C-1002-police-report-scanned.jpg",
+          "value": "theft",
+          "evidence": "theft"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1002",
+      "rule": "claim_decision_consistency",
+      "field": "claim_decision",
+      "status": "VERIFIED",
+      "expected_value": "denied",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1002-DENIAL-SCAN",
+          "filename": "C-1002-denial-letter-scanned.jpg",
+          "value": "denied",
+          "evidence": "denied"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1002",
+      "rule": "claim_number_consistency",
+      "field": "claim_number",
+      "status": "MANUAL_REVIEW_REQUIRED",
+      "expected_value": "C-1002",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1002-ACCIDENT-SCAN",
+          "filename": "C-1002-accident-statement-scanned.jpg",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "document_id": "DOC-C-1002-DENIAL-SCAN",
+          "filename": "C-1002-denial-letter-scanned.jpg",
+          "value": "C-1002",
+          "evidence": "C-1002"
+        },
+        {
+          "document_id": "DOC-C-1002-FNOL-SCAN",
+          "filename": "C-1002-fnol-scanned.jpg",
+          "value": "C-1002",
+          "evidence": "C-1002"
+        },
+        {
+          "document_id": "DOC-C-1002-POLICE",
+          "filename": "C-1002-police-report-scanned.jpg",
+          "value": "c-1002",
+          "evidence": "c-1002"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1002",
+      "rule": "claim_status_consistency",
+      "field": "claim_status",
+      "status": "VERIFIED",
+      "expected_value": "denied",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1002-FNOL-SCAN",
+          "filename": "C-1002-fnol-scanned.jpg",
+          "value": "DENIED",
+          "evidence": "DENIED"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1002",
+      "rule": "date_of_loss_consistency",
+      "field": "date_of_loss",
+      "status": "VERIFIED",
+      "expected_value": "2025-01-31",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1002-ACCIDENT-SCAN",
+          "filename": "C-1002-accident-statement-scanned.jpg",
+          "value": "2025-01-31",
+          "evidence": "31/01/2025"
+        },
+        {
+          "document_id": "DOC-C-1002-DENIAL-SCAN",
+          "filename": "C-1002-denial-letter-scanned.jpg",
+          "value": "2025-01-31",
+          "evidence": "31/01/2025"
+        },
+        {
+          "document_id": "DOC-C-1002-FNOL-SCAN",
+          "filename": "C-1002-fnol-scanned.jpg",
+          "value": "2025-01-31",
+          "evidence": "31/01/2025"
+        },
+        {
+          "document_id": "DOC-C-1002-POLICE",
+          "filename": "C-1002-police-report-scanned.jpg",
+          "value": "2025-01-31",
+          "evidence": "31/01/2025"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1002",
+      "rule": "date_reported_consistency",
+      "field": "date_reported",
+      "status": "VERIFIED",
+      "expected_value": "2025-02-05",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1002-FNOL-SCAN",
+          "filename": "C-1002-fnol-scanned.jpg",
+          "value": "2025-02-05",
+          "evidence": "05/02/2025"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1002",
+      "rule": "insured_name_consistency",
+      "field": "insured_name",
+      "status": "MISMATCHED",
+      "expected_value": "Mr. Stewart Montague",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1002-ACCIDENT-SCAN",
+          "filename": "C-1002-accident-statement-scanned.jpg",
+          "value": "Mr. Stewart Montague",
+          "evidence": "Mr. Stewart Montague"
+        },
+        {
+          "document_id": "DOC-C-1002-DENIAL-SCAN",
+          "filename": "C-1002-denial-letter-scanned.jpg",
+          "value": "Mr. Stewart Montague",
+          "evidence": "Mr. Stewart Montague"
+        },
+        {
+          "document_id": "DOC-C-1002-FNOL-SCAN",
+          "filename": "C-1002-fnol-scanned.jpg",
+          "value": "Mr. Stewart Montague",
+          "evidence": "Mr. Stewart Montague"
+        },
+        {
+          "document_id": "DOC-C-1002-POLICE",
+          "filename": "C-1002-police-report-scanned.jpg",
+          "value": "Mr. Stewart Montague\nVehicle Opel",
+          "evidence": "Mr. Stewart Montague\nVehicle Opel"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1002",
+      "rule": "insured_vehicle_consistency",
+      "field": "insured_vehicle",
+      "status": "VERIFIED",
+      "expected_value": "Opel Astra (2008, red)",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1002-ACCIDENT-SCAN",
+          "filename": "C-1002-accident-statement-scanned.jpg",
+          "value": "Opel Astra (2008, red)",
+          "evidence": "Opel Astra (2008, red)"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1002",
+      "rule": "policy_number_consistency",
+      "field": "policy_number",
+      "status": "VERIFIED",
+      "expected_value": "MOT-0000004",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1002-ACCIDENT-SCAN",
+          "filename": "C-1002-accident-statement-scanned.jpg",
+          "value": "MOT-0000004",
+          "evidence": "MOT-0000004"
+        },
+        {
+          "document_id": "DOC-C-1002-DENIAL-SCAN",
+          "filename": "C-1002-denial-letter-scanned.jpg",
+          "value": "MOT-0000004",
+          "evidence": "MOT-0000004"
+        },
+        {
+          "document_id": "DOC-C-1002-FNOL-SCAN",
+          "filename": "C-1002-fnol-scanned.jpg",
+          "value": "MOT-0000004",
+          "evidence": "MOT-0000004"
+        },
+        {
+          "document_id": "DOC-C-1002-POLICE",
+          "filename": "C-1002-police-report-scanned.jpg",
+          "value": "MOT-0000004",
+          "evidence": "MOT-0000004"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1002",
+      "rule": "reserve_amount_consistency",
+      "field": "reserve_amount",
+      "status": "VERIFIED",
+      "expected_value": 0.0,
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1002-FNOL-SCAN",
+          "filename": "C-1002-fnol-scanned.jpg",
+          "value": "0.00",
+          "evidence": "€0.00"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1002",
+      "rule": "vehicle_registration_consistency",
+      "field": "vehicle_registration",
+      "status": "MISSING",
+      "expected_value": "XD-9797-YI",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1002-ACCIDENT-SCAN",
+          "filename": "C-1002-accident-statement-scanned.jpg",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1003",
+      "rule": "cause_of_loss_consistency",
+      "field": "cause_of_loss",
+      "status": "MANUAL_REVIEW_REQUIRED",
+      "expected_value": "rear_end_collision",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1003-ACCIDENT-SCAN",
+          "filename": "C-1003-accident-statement-scanned.jpg",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "document_id": "DOC-C-1003-FNOL-SCAN",
+          "filename": "C-1003-fnol-scanned.jpg",
+          "value": "rear-end collision",
+          "evidence": "rear-end collision"
+        },
+        {
+          "document_id": "DOC-C-1003-POLICE",
+          "filename": "C-1003-police-report-scanned.jpg",
+          "value": "rear-end collision",
+          "evidence": "rear-end collision"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1003",
+      "rule": "claim_decision_consistency",
+      "field": "claim_decision",
+      "status": "VERIFIED",
+      "expected_value": "denied",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1003-DENIAL-SCAN",
+          "filename": "C-1003-denial-letter-scanned.jpg",
+          "value": "denied",
+          "evidence": "denied"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1003",
+      "rule": "claim_number_consistency",
+      "field": "claim_number",
+      "status": "MANUAL_REVIEW_REQUIRED",
+      "expected_value": "C-1003",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1003-ACCIDENT-SCAN",
+          "filename": "C-1003-accident-statement-scanned.jpg",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "document_id": "DOC-C-1003-DENIAL-SCAN",
+          "filename": "C-1003-denial-letter-scanned.jpg",
+          "value": "C-1003",
+          "evidence": "C-1003"
+        },
+        {
+          "document_id": "DOC-C-1003-FNOL-SCAN",
+          "filename": "C-1003-fnol-scanned.jpg",
+          "value": "C-1003",
+          "evidence": "C-1003"
+        },
+        {
+          "document_id": "DOC-C-1003-POLICE",
+          "filename": "C-1003-police-report-scanned.jpg",
+          "value": "C-1003",
+          "evidence": "C-1003"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1003",
+      "rule": "claim_status_consistency",
+      "field": "claim_status",
+      "status": "VERIFIED",
+      "expected_value": "denied",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1003-FNOL-SCAN",
+          "filename": "C-1003-fnol-scanned.jpg",
+          "value": "DENIED",
+          "evidence": "DENIED"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1003",
+      "rule": "date_of_loss_consistency",
+      "field": "date_of_loss",
+      "status": "VERIFIED",
+      "expected_value": "2024-03-29",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1003-ACCIDENT-SCAN",
+          "filename": "C-1003-accident-statement-scanned.jpg",
+          "value": "2024-03-29",
+          "evidence": "29/03/2024"
+        },
+        {
+          "document_id": "DOC-C-1003-DENIAL-SCAN",
+          "filename": "C-1003-denial-letter-scanned.jpg",
+          "value": "2024-03-29",
+          "evidence": "29/03/2024"
+        },
+        {
+          "document_id": "DOC-C-1003-FNOL-SCAN",
+          "filename": "C-1003-fnol-scanned.jpg",
+          "value": "2024-03-29",
+          "evidence": "29/03/2024"
+        },
+        {
+          "document_id": "DOC-C-1003-POLICE",
+          "filename": "C-1003-police-report-scanned.jpg",
+          "value": "2024-03-29",
+          "evidence": "29/03/2024"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1003",
+      "rule": "date_reported_consistency",
+      "field": "date_reported",
+      "status": "VERIFIED",
+      "expected_value": "2024-04-07",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1003-FNOL-SCAN",
+          "filename": "C-1003-fnol-scanned.jpg",
+          "value": "2024-04-07",
+          "evidence": "07/04/2024"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1003",
+      "rule": "insured_name_consistency",
+      "field": "insured_name",
+      "status": "MISMATCHED",
+      "expected_value": "Dott. Alfio Leone",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1003-ACCIDENT-SCAN",
+          "filename": "C-1003-accident-statement-scanned.jpg",
+          "value": "Dott. Alfio Leone",
+          "evidence": "Dott. Alfio Leone"
+        },
+        {
+          "document_id": "DOC-C-1003-DENIAL-SCAN",
+          "filename": "C-1003-denial-letter-scanned.jpg",
+          "value": "Dott. Alfio Leone\nStretto Gaetano",
+          "evidence": "Dott. Alfio Leone\nStretto Gaetano"
+        },
+        {
+          "document_id": "DOC-C-1003-FNOL-SCAN",
+          "filename": "C-1003-fnol-scanned.jpg",
+          "value": "Dott. Alfio Leone",
+          "evidence": "Dott. Alfio Leone"
+        },
+        {
+          "document_id": "DOC-C-1003-POLICE",
+          "filename": "C-1003-police-report-scanned.jpg",
+          "value": "Dott. Alfio Leone\nVehicle Peugeot",
+          "evidence": "Dott. Alfio Leone\nVehicle Peugeot"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1003",
+      "rule": "insured_vehicle_consistency",
+      "field": "insured_vehicle",
+      "status": "MISMATCHED",
+      "expected_value": "Peugeot 208 (2016, black)",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1003-ACCIDENT-SCAN",
+          "filename": "C-1003-accident-statement-scanned.jpg",
+          "value": "Peugeot 208 (2046, black)",
+          "evidence": "Peugeot 208 (2046, black)"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1003",
+      "rule": "policy_number_consistency",
+      "field": "policy_number",
+      "status": "MANUAL_REVIEW_REQUIRED",
+      "expected_value": "MOT-0000002",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1003-ACCIDENT-SCAN",
+          "filename": "C-1003-accident-statement-scanned.jpg",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "document_id": "DOC-C-1003-DENIAL-SCAN",
+          "filename": "C-1003-denial-letter-scanned.jpg",
+          "value": "MOT-0000002",
+          "evidence": "MOT-0000002"
+        },
+        {
+          "document_id": "DOC-C-1003-FNOL-SCAN",
+          "filename": "C-1003-fnol-scanned.jpg",
+          "value": "MOT-0000002",
+          "evidence": "MOT-0000002"
+        },
+        {
+          "document_id": "DOC-C-1003-POLICE",
+          "filename": "C-1003-police-report-scanned.jpg",
+          "value": "MOT-0000002",
+          "evidence": "MOT-0000002"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1003",
+      "rule": "reserve_amount_consistency",
+      "field": "reserve_amount",
+      "status": "VERIFIED",
+      "expected_value": 0.0,
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1003-FNOL-SCAN",
+          "filename": "C-1003-fnol-scanned.jpg",
+          "value": "0.00",
+          "evidence": "€0.00"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1003",
+      "rule": "vehicle_registration_consistency",
+      "field": "vehicle_registration",
+      "status": "MISSING",
+      "expected_value": "HX-9830-IX",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1003-ACCIDENT-SCAN",
+          "filename": "C-1003-accident-statement-scanned.jpg",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1004",
+      "rule": "cause_of_loss_consistency",
+      "field": "cause_of_loss",
+      "status": "VERIFIED",
+      "expected_value": "hail",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1004-ACCIDENT-SCAN",
+          "filename": "C-1004-accident-statement-scanned.jpg",
+          "value": "hail",
+          "evidence": "hail"
+        },
+        {
+          "document_id": "DOC-C-1004-FNOL-SCAN",
+          "filename": "C-1004-fnol-scanned.jpg",
+          "value": "hail",
+          "evidence": "hail"
+        },
+        {
+          "document_id": "DOC-C-1004-POLICE",
+          "filename": "C-1004-police-report-scanned.jpg",
+          "value": "hail",
+          "evidence": "hail"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1004",
+      "rule": "claim_decision_consistency",
+      "field": "claim_decision",
+      "status": "VERIFIED",
+      "expected_value": "approved",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1004-SETTLEMENT-SCAN",
+          "filename": "C-1004-settlement-letter-scanned.jpg",
+          "value": "approved",
+          "evidence": "approved"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1004",
+      "rule": "claim_number_consistency",
+      "field": "claim_number",
+      "status": "MANUAL_REVIEW_REQUIRED",
+      "expected_value": "C-1004",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1004-ACCIDENT-SCAN",
+          "filename": "C-1004-accident-statement-scanned.jpg",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "document_id": "DOC-C-1004-FNOL-SCAN",
+          "filename": "C-1004-fnol-scanned.jpg",
+          "value": "C-1004",
+          "evidence": "C-1004"
+        },
+        {
+          "document_id": "DOC-C-1004-POLICE",
+          "filename": "C-1004-police-report-scanned.jpg",
+          "value": "C-1004",
+          "evidence": "C-1004"
+        },
+        {
+          "document_id": "DOC-C-1004-SETTLEMENT-SCAN",
+          "filename": "C-1004-settlement-letter-scanned.jpg",
+          "value": "C-1004",
+          "evidence": "C-1004"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1004",
+      "rule": "claim_status_consistency",
+      "field": "claim_status",
+      "status": "VERIFIED",
+      "expected_value": "closed",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1004-FNOL-SCAN",
+          "filename": "C-1004-fnol-scanned.jpg",
+          "value": "CLOSED",
+          "evidence": "CLOSED"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1004",
+      "rule": "date_of_loss_consistency",
+      "field": "date_of_loss",
+      "status": "VERIFIED",
+      "expected_value": "2025-09-03",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1004-ACCIDENT-SCAN",
+          "filename": "C-1004-accident-statement-scanned.jpg",
+          "value": "2025-09-03",
+          "evidence": "03/09/2025"
+        },
+        {
+          "document_id": "DOC-C-1004-FNOL-SCAN",
+          "filename": "C-1004-fnol-scanned.jpg",
+          "value": "2025-09-03",
+          "evidence": "03/09/2025"
+        },
+        {
+          "document_id": "DOC-C-1004-POLICE",
+          "filename": "C-1004-police-report-scanned.jpg",
+          "value": "2025-09-03",
+          "evidence": "03/09/2025"
+        },
+        {
+          "document_id": "DOC-C-1004-SETTLEMENT-SCAN",
+          "filename": "C-1004-settlement-letter-scanned.jpg",
+          "value": "2025-09-03",
+          "evidence": "03/09/2025"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1004",
+      "rule": "date_reported_consistency",
+      "field": "date_reported",
+      "status": "VERIFIED",
+      "expected_value": "2025-09-05",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1004-FNOL-SCAN",
+          "filename": "C-1004-fnol-scanned.jpg",
+          "value": "2025-09-05",
+          "evidence": "05/09/2025"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1004",
+      "rule": "deductible_consistency",
+      "field": "deductible",
+      "status": "VERIFIED",
+      "expected_value": 500.0,
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1004-SETTLEMENT-SCAN",
+          "filename": "C-1004-settlement-letter-scanned.jpg",
+          "value": "500.00",
+          "evidence": "€500.00"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1004",
+      "rule": "insured_name_consistency",
+      "field": "insured_name",
+      "status": "MISMATCHED",
+      "expected_value": "Mr. Stewart Montague",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1004-ACCIDENT-SCAN",
+          "filename": "C-1004-accident-statement-scanned.jpg",
+          "value": "Mr. Stewart Montague",
+          "evidence": "Mr. Stewart Montague"
+        },
+        {
+          "document_id": "DOC-C-1004-FNOL-SCAN",
+          "filename": "C-1004-fnol-scanned.jpg",
+          "value": "Mr. Stewart Montague",
+          "evidence": "Mr. Stewart Montague"
+        },
+        {
+          "document_id": "DOC-C-1004-POLICE",
+          "filename": "C-1004-police-report-scanned.jpg",
+          "value": "Mr. Stewart Montague\nVehicle Opel",
+          "evidence": "Mr. Stewart Montague\nVehicle Opel"
+        },
+        {
+          "document_id": "DOC-C-1004-SETTLEMENT-SCAN",
+          "filename": "C-1004-settlement-letter-scanned.jpg",
+          "value": "Mr. Stewart Montague",
+          "evidence": "Mr. Stewart Montague"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1004",
+      "rule": "insured_vehicle_consistency",
+      "field": "insured_vehicle",
+      "status": "VERIFIED",
+      "expected_value": "Opel Astra (2008, red)",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1004-ACCIDENT-SCAN",
+          "filename": "C-1004-accident-statement-scanned.jpg",
+          "value": "Opel Astra (2008, red)",
+          "evidence": "Opel Astra (2008, red)"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1004",
+      "rule": "policy_number_consistency",
+      "field": "policy_number",
+      "status": "MANUAL_REVIEW_REQUIRED",
+      "expected_value": "MOT-0000004",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1004-ACCIDENT-SCAN",
+          "filename": "C-1004-accident-statement-scanned.jpg",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "document_id": "DOC-C-1004-FNOL-SCAN",
+          "filename": "C-1004-fnol-scanned.jpg",
+          "value": "MOT-0000004",
+          "evidence": "MOT-0000004"
+        },
+        {
+          "document_id": "DOC-C-1004-POLICE",
+          "filename": "C-1004-police-report-scanned.jpg",
+          "value": "MOT-0000004",
+          "evidence": "MOT-0000004"
+        },
+        {
+          "document_id": "DOC-C-1004-SETTLEMENT-SCAN",
+          "filename": "C-1004-settlement-letter-scanned.jpg",
+          "value": "MOT-0000004",
+          "evidence": "MOT-0000004"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1004",
+      "rule": "reserve_amount_consistency",
+      "field": "reserve_amount",
+      "status": "VERIFIED",
+      "expected_value": 0.0,
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1004-FNOL-SCAN",
+          "filename": "C-1004-fnol-scanned.jpg",
+          "value": "0.00",
+          "evidence": "€0.00"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1004",
+      "rule": "settlement_amount_consistency",
+      "field": "settlement_amount",
+      "status": "VERIFIED",
+      "expected_value": 48950.0,
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1004-SETTLEMENT-SCAN",
+          "filename": "C-1004-settlement-letter-scanned.jpg",
+          "value": "48950.00",
+          "evidence": "€48,950.00"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "C-1004",
+      "rule": "vehicle_registration_consistency",
+      "field": "vehicle_registration",
+      "status": "MISSING",
+      "expected_value": "XD-9797-YI",
+      "observed_values": [
+        {
+          "document_id": "DOC-C-1004-ACCIDENT-SCAN",
+          "filename": "C-1004-accident-statement-scanned.jpg",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "PH-00001",
+      "rule": "identification_number_consistency",
+      "field": "identification_number",
+      "status": "VERIFIED",
+      "expected_value": "338908380",
+      "observed_values": [
+        {
+          "document_id": "DOC-PH-00001-IDCARD-SCAN",
+          "filename": "PH-00001-id-card-scanned.jpg",
+          "value": "338908380",
+          "evidence": "338908380"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "PH-00001",
+      "rule": "insured_name_consistency",
+      "field": "insured_name",
+      "status": "VERIFIED",
+      "expected_value": "Ali Schellekens",
+      "observed_values": [
+        {
+          "document_id": "DOC-PH-00001-IDCARD-SCAN",
+          "filename": "PH-00001-id-card-scanned.jpg",
+          "value": "Ali Schellekens",
+          "evidence": "Ali Schellekens"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "PH-00002",
+      "rule": "identification_number_consistency",
+      "field": "identification_number",
+      "status": "VERIFIED",
+      "expected_value": "ZAYZFW65Z42G511M",
+      "observed_values": [
+        {
+          "document_id": "DOC-PH-00002-IDCARD-SCAN",
+          "filename": "PH-00002-id-card-scanned.jpg",
+          "value": "ZAYZFW65Z42G511M",
+          "evidence": "ZAYZFW65Z42G511M"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "PH-00002",
+      "rule": "insured_name_consistency",
+      "field": "insured_name",
+      "status": "MISMATCHED",
+      "expected_value": "Dott. Alfio Leone",
+      "observed_values": [
+        {
+          "document_id": "DOC-PH-00002-IDCARD-SCAN",
+          "filename": "PH-00002-id-card-scanned.jpg",
+          "value": "Alpio Leone",
+          "evidence": "Alpio Leone"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "PH-00003",
+      "rule": "identification_number_consistency",
+      "field": "identification_number",
+      "status": "MISSING",
+      "expected_value": "04078161849",
+      "observed_values": [
+        {
+          "document_id": "DOC-PH-00003-IDCARD-SCAN",
+          "filename": "PH-00003-id-card-scanned.jpg",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "PH-00003",
+      "rule": "insured_name_consistency",
+      "field": "insured_name",
+      "status": "MISSING",
+      "expected_value": "Dorit Etzold",
+      "observed_values": [
+        {
+          "document_id": "DOC-PH-00003-IDCARD-SCAN",
+          "filename": "PH-00003-id-card-scanned.jpg",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "PH-00004",
+      "rule": "identification_number_consistency",
+      "field": "identification_number",
+      "status": "VERIFIED",
+      "expected_value": "88753260-X",
+      "observed_values": [
+        {
+          "document_id": "DOC-PH-00004-IDCARD-SCAN",
+          "filename": "PH-00004-id-card-scanned.jpg",
+          "value": "88753260-X",
+          "evidence": "88753260-X"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "PH-00004",
+      "rule": "insured_name_consistency",
+      "field": "insured_name",
+      "status": "MISMATCHED",
+      "expected_value": "Albano Llopis Hierro",
+      "observed_values": [
+        {
+          "document_id": "DOC-PH-00004-IDCARD-SCAN",
+          "filename": "PH-00004-id-card-scanned.jpg",
+          "value": "Albano Rierro",
+          "evidence": "Albano Rierro"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "PH-00005",
+      "rule": "identification_number_consistency",
+      "field": "identification_number",
+      "status": "VERIFIED",
+      "expected_value": "016475255341928",
+      "observed_values": [
+        {
+          "document_id": "DOC-PH-00005-IDCARD-SCAN",
+          "filename": "PH-00005-id-card-scanned.jpg",
+          "value": "016475255341928",
+          "evidence": "016475255341928"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "PH-00005",
+      "rule": "insured_name_consistency",
+      "field": "insured_name",
+      "status": "MISMATCHED",
+      "expected_value": "Aurore Maury",
+      "observed_values": [
+        {
+          "document_id": "DOC-PH-00005-IDCARD-SCAN",
+          "filename": "PH-00005-id-card-scanned.jpg",
+          "value": "Aurorec Maury",
+          "evidence": "Aurorec Maury"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "PH-00006",
+      "rule": "identification_number_consistency",
+      "field": "identification_number",
+      "status": "VERIFIED",
+      "expected_value": "4528972TA",
+      "observed_values": [
+        {
+          "document_id": "DOC-PH-00006-IDCARD-SCAN",
+          "filename": "PH-00006-id-card-scanned.jpg",
+          "value": "4528972TA",
+          "evidence": "4528972TA"
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    },
+    {
+      "case_id": "PH-00006",
+      "rule": "insured_name_consistency",
+      "field": "insured_name",
+      "status": "MISSING",
+      "expected_value": "Mr. Stewart Montague",
+      "observed_values": [
+        {
+          "document_id": "DOC-PH-00006-IDCARD-SCAN",
+          "filename": "PH-00006-id-card-scanned.jpg",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+    }
+  ]
+}

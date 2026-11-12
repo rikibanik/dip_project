@@ -1,0 +1,18 @@
+{
+  "ocr_rows": 759,
+  "unique_ocr_document_psm_variant_keys": 759,
+  "ocr_duplicate_key_count": 0,
+  "field_rows": 4092,
+  "unique_field_document_psm_variant_field_keys": 4092,
+  "field_duplicate_key_count": 0,
+  "documents_in_saved_json": 23,
+  "ocr_independent_score_rows_checked": 759,
+  "scored_rows_with_saved_score": 627,
+  "cer_saved_match_count": 627,
+  "wer_saved_match_count": 627,
+  "scored_ocr_rows": 627,
+  "unscored_ocr_rows": 132,
+  "manifest_document_ids_unique": true,
+  "run_declares_train_test_split": false,
+  "split_finding": "No train/development/test split exists for this synthetic sample. No model fitting was performed in this OCR run; the paired scan/PDFs and metadata share the same generated corpus provenance."
+}

@@ -1,0 +1,134 @@
+# HSR-AIML-004 Individual Upload Index
+
+Student: Riki Banik | Roll 33
+
+Folders are numbered by the requested submission categories. Every deliverable file is individually named with the required `RikiBanik_33_` prefix. Source and historic data/results remain in the project. The dataset binaries are not copied into this package; provide them separately if the institution requires them.
+
+The four-page academic paper is in folder 09. Existing visual comparisons and audit files are in folders 06 and 07. Dashboard screenshots are currently unavailable as workspace files: only the running app Overview was visually observed in the browser; upload-dependent sections require a live document session. Do not represent placeholders as screenshots.
+
+Exact reproduction commands from the repository root (PowerShell):
+
+```powershell
+py -3.12 -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+python scripts/inspect_insurance_dataset.py
+python scripts/run_insurance_ocr_experiment.py
+python scripts/audit_insurance_experiment.py
+python scripts/generate_academic_visuals.py
+python -m pytest -q
+streamlit run app/main.py
+python scripts/build_ieee_paper.py
+python scripts/prepare_submission.py
+```
+
+Dataset copies and generated experiment outputs are not included in this individual-upload folder. Existing outputs are referenced in the project report and audit summary.
+
+## Files ready for individual upload
+
+- `01_Problem_Statement/RikiBanik_33_Problem_Statement.md`
+- `02_State_of_the_Art/RikiBanik_33_State_of_the_Art.md`
+- `03_Methodology_Flowchart_Pseudocode/RikiBanik_33_Architecture_Flowchart.md`
+- `03_Methodology_Flowchart_Pseudocode/RikiBanik_33_Methodology_and_Pseudocode.md`
+- `04_Implementation_Source_Code/RikiBanik_33_Project_README.md`
+- `04_Implementation_Source_Code/RikiBanik_33_pytest.ini`
+- `04_Implementation_Source_Code/RikiBanik_33_requirements-ai.txt`
+- `04_Implementation_Source_Code/RikiBanik_33_requirements-ocr.txt`
+- `04_Implementation_Source_Code/RikiBanik_33_requirements.txt`
+- `04_Implementation_Source_Code/RikiBanik_33_source__app____init__.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__app__main.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__scripts__audit_insurance_experiment.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__scripts__build_ieee_paper.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__scripts__evaluate_classifier.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__scripts__generate_academic_visuals.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__scripts__generate_samples.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__scripts__inspect_datasets.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__scripts__inspect_insurance_dataset.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__scripts__inspect_paired_documents.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__scripts__prepare_dataset.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__scripts__prepare_submission.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__scripts__run_evaluation.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__scripts__run_funsd_deep_analysis.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__scripts__run_funsd_error_analysis.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__scripts__run_funsd_experiment.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__scripts__run_insurance_ocr_baseline.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__scripts__run_insurance_ocr_experiment.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__scripts__run_insurance_preprocessing.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__scripts__run_ocr_experiment.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__scripts__train_classifier.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__src____init__.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__src__classification____init__.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__src__classification__classifier.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__src__config.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__src__datasets____init__.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__src__datasets__insurance.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__src__datasets__loader.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__src__evaluation____init__.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__src__evaluation__metrics.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__src__extraction____init__.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__src__extraction__fields.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__src__extraction__insurance_fields.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__src__ingestion____init__.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__src__ingestion__loader.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__src__logging_config.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__src__ocr____init__.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__src__ocr__engine.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__src__preprocessing____init__.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__src__preprocessing__pipeline.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__src__processing.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__src__segmentation____init__.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__src__storage.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__src__summarization____init__.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__src__summarization__summary.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__src__validation____init__.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__src__validation__insurance.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__src__validation__rules.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__tests__test_core.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__tests__test_funsd_deep_analysis.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__tests__test_funsd_error_analysis.py`
+- `04_Implementation_Source_Code/RikiBanik_33_source__tests__test_funsd_experiment.py`
+- `05_Dataset_Data_Sources/RikiBanik_33_Dataset_and_Data_Sources.md`
+- `05_Dataset_Data_Sources/RikiBanik_33_Existing_Dataset_Notes.md`
+- `06_Novelty_USP_DIP_Visualizations/RikiBanik_33_Novelty_and_USP.md`
+- `06_Novelty_USP_DIP_Visualizations/RikiBanik_33_ocr_output_DOC-C-1000-FNOL-SCAN.png`
+- `06_Novelty_USP_DIP_Visualizations/RikiBanik_33_ocr_output_DOC-C-1004-ACCIDENT-SCAN.png`
+- `06_Novelty_USP_DIP_Visualizations/RikiBanik_33_ocr_output_DOC-PH-00002-IDCARD-SCAN.png`
+- `06_Novelty_USP_DIP_Visualizations/RikiBanik_33_preprocessing_DOC-C-1000-FNOL-SCAN.png`
+- `06_Novelty_USP_DIP_Visualizations/RikiBanik_33_preprocessing_DOC-C-1004-ACCIDENT-SCAN.png`
+- `06_Novelty_USP_DIP_Visualizations/RikiBanik_33_preprocessing_DOC-PH-00002-IDCARD-SCAN.png`
+- `07_Results_and_Dashboard_Evidence/RikiBanik_33_Dashboard_Evidence_Status.md`
+- `07_Results_and_Dashboard_Evidence/RikiBanik_33_Existing_Final_Report.md`
+- `07_Results_and_Dashboard_Evidence/RikiBanik_33_Presentation_Outline.md`
+- `07_Results_and_Dashboard_Evidence/RikiBanik_33_Results_Interpretation_and_Limitations.md`
+- `07_Results_and_Dashboard_Evidence/RikiBanik_33_Technical_Viva_Preparation.md`
+- `07_Results_and_Dashboard_Evidence/RikiBanik_33_audit__audit_summary.md`
+- `07_Results_and_Dashboard_Evidence/RikiBanik_33_audit__field_audit_original_clahe_all_psm.csv`
+- `07_Results_and_Dashboard_Evidence/RikiBanik_33_audit__field_precision_recall_f1_original_clahe.csv`
+- `07_Results_and_Dashboard_Evidence/RikiBanik_33_audit__independent_ocr_scores_all_records.csv`
+- `07_Results_and_Dashboard_Evidence/RikiBanik_33_audit__ocr_independent_aggregates.csv`
+- `07_Results_and_Dashboard_Evidence/RikiBanik_33_audit__ocr_per_document_original_vs_clahe.csv`
+- `07_Results_and_Dashboard_Evidence/RikiBanik_33_audit__project_report.md`
+- `07_Results_and_Dashboard_Evidence/RikiBanik_33_audit__reference_reading_order_sensitivity.csv`
+- `07_Results_and_Dashboard_Evidence/RikiBanik_33_audit__repository_audit.md`
+- `07_Results_and_Dashboard_Evidence/RikiBanik_33_audit__unmatched_police_report_audit.csv`
+- `07_Results_and_Dashboard_Evidence/RikiBanik_33_fresh_audit__audit_integrity_checks.json`
+- `07_Results_and_Dashboard_Evidence/RikiBanik_33_fresh_audit__audit_summary.md`
+- `07_Results_and_Dashboard_Evidence/RikiBanik_33_fresh_audit__field_audit_original_clahe_all_psm.csv`
+- `07_Results_and_Dashboard_Evidence/RikiBanik_33_fresh_audit__field_precision_recall_f1_original_clahe.csv`
+- `07_Results_and_Dashboard_Evidence/RikiBanik_33_fresh_audit__independent_ocr_scores_all_records.csv`
+- `07_Results_and_Dashboard_Evidence/RikiBanik_33_fresh_audit__ocr_independent_aggregates.csv`
+- `07_Results_and_Dashboard_Evidence/RikiBanik_33_fresh_audit__ocr_per_document_original_vs_clahe.csv`
+- `07_Results_and_Dashboard_Evidence/RikiBanik_33_fresh_audit__reference_reading_order_sensitivity.csv`
+- `07_Results_and_Dashboard_Evidence/RikiBanik_33_fresh_audit__reference_text_structure_audit.csv`
+- `07_Results_and_Dashboard_Evidence/RikiBanik_33_fresh_audit__unmatched_police_report_audit.csv`
+- `07_Results_and_Dashboard_Evidence/RikiBanik_33_verified_run__insurance_cross_document_validation.json`
+- `07_Results_and_Dashboard_Evidence/RikiBanik_33_verified_run__insurance_field_evaluation.json`
+- `07_Results_and_Dashboard_Evidence/RikiBanik_33_verified_run__insurance_ocr_experiment.json`
+- `07_Results_and_Dashboard_Evidence/RikiBanik_33_verified_run__reference_pair_audit.csv`
+- `08_References/RikiBanik_33_References.md`
+- `09_IEEE_Conference_Paper/RikiBanik_33_Insurance_Document_Intelligence_IEEE_Paper.pdf`
+- `09_IEEE_Conference_Paper/RikiBanik_33_paper_QA_page_1.png`
+- `09_IEEE_Conference_Paper/RikiBanik_33_paper_QA_page_2.png`
+- `09_IEEE_Conference_Paper/RikiBanik_33_paper_QA_page_3.png`
+- `09_IEEE_Conference_Paper/RikiBanik_33_paper_QA_page_4.png`

@@ -1,0 +1,1426 @@
+[
+  {
+    "case_id": "C-1000",
+    "rule": "cause_of_loss_consistency",
+    "field": "cause_of_loss",
+    "status": "VERIFIED",
+    "expected_value": "business_interruption",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1000-FNOL-SCAN",
+        "filename": "C-1000-fnol-scanned.jpg",
+        "value": "business interruption",
+        "evidence": "business interruption"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1000",
+    "rule": "claim_decision_consistency",
+    "field": "claim_decision",
+    "status": "VERIFIED",
+    "expected_value": "approved",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1000-SETTLEMENT-SCAN",
+        "filename": "C-1000-settlement-letter-scanned.jpg",
+        "value": "approved",
+        "evidence": "approved"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1000",
+    "rule": "claim_number_consistency",
+    "field": "claim_number",
+    "status": "VERIFIED",
+    "expected_value": "C-1000",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1000-FNOL-SCAN",
+        "filename": "C-1000-fnol-scanned.jpg",
+        "value": "C-1000",
+        "evidence": "C-1000"
+      },
+      {
+        "document_id": "DOC-C-1000-SETTLEMENT-SCAN",
+        "filename": "C-1000-settlement-letter-scanned.jpg",
+        "value": "C-1000",
+        "evidence": "C-1000"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1000",
+    "rule": "claim_status_consistency",
+    "field": "claim_status",
+    "status": "VERIFIED",
+    "expected_value": "closed",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1000-FNOL-SCAN",
+        "filename": "C-1000-fnol-scanned.jpg",
+        "value": "CLOSED",
+        "evidence": "CLOSED"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1000",
+    "rule": "date_of_loss_consistency",
+    "field": "date_of_loss",
+    "status": "VERIFIED",
+    "expected_value": "2024-07-13",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1000-FNOL-SCAN",
+        "filename": "C-1000-fnol-scanned.jpg",
+        "value": "2024-07-13",
+        "evidence": "13/07/2024"
+      },
+      {
+        "document_id": "DOC-C-1000-SETTLEMENT-SCAN",
+        "filename": "C-1000-settlement-letter-scanned.jpg",
+        "value": "2024-07-13",
+        "evidence": "13/07/2024"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1000",
+    "rule": "date_reported_consistency",
+    "field": "date_reported",
+    "status": "VERIFIED",
+    "expected_value": "2024-07-21",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1000-FNOL-SCAN",
+        "filename": "C-1000-fnol-scanned.jpg",
+        "value": "2024-07-21",
+        "evidence": "21/07/2024"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1000",
+    "rule": "deductible_consistency",
+    "field": "deductible",
+    "status": "VERIFIED",
+    "expected_value": 2500.0,
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1000-SETTLEMENT-SCAN",
+        "filename": "C-1000-settlement-letter-scanned.jpg",
+        "value": "2500.00",
+        "evidence": "€2,500.00"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1000",
+    "rule": "insured_name_consistency",
+    "field": "insured_name",
+    "status": "VERIFIED",
+    "expected_value": "Mr. Stewart Montague",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1000-FNOL-SCAN",
+        "filename": "C-1000-fnol-scanned.jpg",
+        "value": "Mr. Stewart Montague",
+        "evidence": "Mr. Stewart Montague"
+      },
+      {
+        "document_id": "DOC-C-1000-SETTLEMENT-SCAN",
+        "filename": "C-1000-settlement-letter-scanned.jpg",
+        "value": "Mr. Stewart Montague",
+        "evidence": "Mr. Stewart Montague"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1000",
+    "rule": "policy_number_consistency",
+    "field": "policy_number",
+    "status": "VERIFIED",
+    "expected_value": "COM-0000001",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1000-FNOL-SCAN",
+        "filename": "C-1000-fnol-scanned.jpg",
+        "value": "COM-0000001",
+        "evidence": "COM-0000001"
+      },
+      {
+        "document_id": "DOC-C-1000-SETTLEMENT-SCAN",
+        "filename": "C-1000-settlement-letter-scanned.jpg",
+        "value": "COM-0000001",
+        "evidence": "COM-0000001"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1000",
+    "rule": "reserve_amount_consistency",
+    "field": "reserve_amount",
+    "status": "VERIFIED",
+    "expected_value": 0.0,
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1000-FNOL-SCAN",
+        "filename": "C-1000-fnol-scanned.jpg",
+        "value": "0.00",
+        "evidence": "€0.00"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1000",
+    "rule": "settlement_amount_consistency",
+    "field": "settlement_amount",
+    "status": "VERIFIED",
+    "expected_value": 10650.0,
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1000-SETTLEMENT-SCAN",
+        "filename": "C-1000-settlement-letter-scanned.jpg",
+        "value": "10650.00",
+        "evidence": "€10,650.00"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1001",
+    "rule": "cause_of_loss_consistency",
+    "field": "cause_of_loss",
+    "status": "VERIFIED",
+    "expected_value": "vandalism",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1001-ACCIDENT-SCAN",
+        "filename": "C-1001-accident-statement-scanned.jpg",
+        "value": "vandalism",
+        "evidence": "vandalism"
+      },
+      {
+        "document_id": "DOC-C-1001-FNOL-SCAN",
+        "filename": "C-1001-fnol-scanned.jpg",
+        "value": "vandalism",
+        "evidence": "vandalism"
+      },
+      {
+        "document_id": "DOC-C-1001-POLICE",
+        "filename": "C-1001-police-report-scanned.jpg",
+        "value": "vandalism",
+        "evidence": "vandalism"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1001",
+    "rule": "claim_number_consistency",
+    "field": "claim_number",
+    "status": "VERIFIED",
+    "expected_value": "C-1001",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1001-ACCIDENT-SCAN",
+        "filename": "C-1001-accident-statement-scanned.jpg",
+        "value": "C-1001",
+        "evidence": "C-1001"
+      },
+      {
+        "document_id": "DOC-C-1001-FNOL-SCAN",
+        "filename": "C-1001-fnol-scanned.jpg",
+        "value": "C-1001",
+        "evidence": "C-1001"
+      },
+      {
+        "document_id": "DOC-C-1001-POLICE",
+        "filename": "C-1001-police-report-scanned.jpg",
+        "value": "C-1001",
+        "evidence": "C-1001"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1001",
+    "rule": "claim_status_consistency",
+    "field": "claim_status",
+    "status": "VERIFIED",
+    "expected_value": "open",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1001-FNOL-SCAN",
+        "filename": "C-1001-fnol-scanned.jpg",
+        "value": "OPEN",
+        "evidence": "OPEN"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1001",
+    "rule": "date_of_loss_consistency",
+    "field": "date_of_loss",
+    "status": "MANUAL_REVIEW_REQUIRED",
+    "expected_value": "2024-02-17",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1001-ACCIDENT-SCAN",
+        "filename": "C-1001-accident-statement-scanned.jpg",
+        "value": null,
+        "evidence": "47/02/2024"
+      },
+      {
+        "document_id": "DOC-C-1001-FNOL-SCAN",
+        "filename": "C-1001-fnol-scanned.jpg",
+        "value": "2024-02-17",
+        "evidence": "17/02/2024"
+      },
+      {
+        "document_id": "DOC-C-1001-POLICE",
+        "filename": "C-1001-police-report-scanned.jpg",
+        "value": "2024-02-17",
+        "evidence": "17/02/2024"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1001",
+    "rule": "date_reported_consistency",
+    "field": "date_reported",
+    "status": "VERIFIED",
+    "expected_value": "2024-02-25",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1001-FNOL-SCAN",
+        "filename": "C-1001-fnol-scanned.jpg",
+        "value": "2024-02-25",
+        "evidence": "25/02/2024"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1001",
+    "rule": "insured_name_consistency",
+    "field": "insured_name",
+    "status": "MISMATCHED",
+    "expected_value": "Dott. Alfio Leone",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1001-ACCIDENT-SCAN",
+        "filename": "C-1001-accident-statement-scanned.jpg",
+        "value": "Dott. Alfio Leone",
+        "evidence": "Dott. Alfio Leone"
+      },
+      {
+        "document_id": "DOC-C-1001-FNOL-SCAN",
+        "filename": "C-1001-fnol-scanned.jpg",
+        "value": "Dott. Alfio Leone",
+        "evidence": "Dott. Alfio Leone"
+      },
+      {
+        "document_id": "DOC-C-1001-POLICE",
+        "filename": "C-1001-police-report-scanned.jpg",
+        "value": "Dott. Alfio Leone\nVehicle Peugeot",
+        "evidence": "Dott. Alfio Leone\nVehicle Peugeot"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1001",
+    "rule": "insured_vehicle_consistency",
+    "field": "insured_vehicle",
+    "status": "MISMATCHED",
+    "expected_value": "Peugeot 208 (2016, black)",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1001-ACCIDENT-SCAN",
+        "filename": "C-1001-accident-statement-scanned.jpg",
+        "value": "Peugeot 208 (2048, black)",
+        "evidence": "Peugeot 208 (2048, black)"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1001",
+    "rule": "policy_number_consistency",
+    "field": "policy_number",
+    "status": "MANUAL_REVIEW_REQUIRED",
+    "expected_value": "MOT-0000002",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1001-ACCIDENT-SCAN",
+        "filename": "C-1001-accident-statement-scanned.jpg",
+        "value": null,
+        "evidence": null
+      },
+      {
+        "document_id": "DOC-C-1001-FNOL-SCAN",
+        "filename": "C-1001-fnol-scanned.jpg",
+        "value": "MOT-0000002",
+        "evidence": "MOT-0000002"
+      },
+      {
+        "document_id": "DOC-C-1001-POLICE",
+        "filename": "C-1001-police-report-scanned.jpg",
+        "value": "MOT-0000002",
+        "evidence": "MOT-0000002"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1001",
+    "rule": "reserve_amount_consistency",
+    "field": "reserve_amount",
+    "status": "VERIFIED",
+    "expected_value": 2050.0,
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1001-FNOL-SCAN",
+        "filename": "C-1001-fnol-scanned.jpg",
+        "value": "2050.00",
+        "evidence": "€2,050.00"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1001",
+    "rule": "vehicle_registration_consistency",
+    "field": "vehicle_registration",
+    "status": "VERIFIED",
+    "expected_value": "HX-9830-IX",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1001-ACCIDENT-SCAN",
+        "filename": "C-1001-accident-statement-scanned.jpg",
+        "value": "HX-9830-IX",
+        "evidence": "HX-9830-IX"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1002",
+    "rule": "cause_of_loss_consistency",
+    "field": "cause_of_loss",
+    "status": "VERIFIED",
+    "expected_value": "theft",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1002-ACCIDENT-SCAN",
+        "filename": "C-1002-accident-statement-scanned.jpg",
+        "value": "theft",
+        "evidence": "theft"
+      },
+      {
+        "document_id": "DOC-C-1002-FNOL-SCAN",
+        "filename": "C-1002-fnol-scanned.jpg",
+        "value": "theft",
+        "evidence": "theft"
+      },
+      {
+        "document_id": "DOC-C-1002-POLICE",
+        "filename": "C-1002-police-report-scanned.jpg",
+        "value": "theft",
+        "evidence": "theft"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1002",
+    "rule": "claim_decision_consistency",
+    "field": "claim_decision",
+    "status": "VERIFIED",
+    "expected_value": "denied",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1002-DENIAL-SCAN",
+        "filename": "C-1002-denial-letter-scanned.jpg",
+        "value": "denied",
+        "evidence": "denied"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1002",
+    "rule": "claim_number_consistency",
+    "field": "claim_number",
+    "status": "MANUAL_REVIEW_REQUIRED",
+    "expected_value": "C-1002",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1002-ACCIDENT-SCAN",
+        "filename": "C-1002-accident-statement-scanned.jpg",
+        "value": null,
+        "evidence": null
+      },
+      {
+        "document_id": "DOC-C-1002-DENIAL-SCAN",
+        "filename": "C-1002-denial-letter-scanned.jpg",
+        "value": "C-1002",
+        "evidence": "C-1002"
+      },
+      {
+        "document_id": "DOC-C-1002-FNOL-SCAN",
+        "filename": "C-1002-fnol-scanned.jpg",
+        "value": "C-1002",
+        "evidence": "C-1002"
+      },
+      {
+        "document_id": "DOC-C-1002-POLICE",
+        "filename": "C-1002-police-report-scanned.jpg",
+        "value": "c-1002",
+        "evidence": "c-1002"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1002",
+    "rule": "claim_status_consistency",
+    "field": "claim_status",
+    "status": "VERIFIED",
+    "expected_value": "denied",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1002-FNOL-SCAN",
+        "filename": "C-1002-fnol-scanned.jpg",
+        "value": "DENIED",
+        "evidence": "DENIED"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1002",
+    "rule": "date_of_loss_consistency",
+    "field": "date_of_loss",
+    "status": "VERIFIED",
+    "expected_value": "2025-01-31",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1002-ACCIDENT-SCAN",
+        "filename": "C-1002-accident-statement-scanned.jpg",
+        "value": "2025-01-31",
+        "evidence": "31/01/2025"
+      },
+      {
+        "document_id": "DOC-C-1002-DENIAL-SCAN",
+        "filename": "C-1002-denial-letter-scanned.jpg",
+        "value": "2025-01-31",
+        "evidence": "31/01/2025"
+      },
+      {
+        "document_id": "DOC-C-1002-FNOL-SCAN",
+        "filename": "C-1002-fnol-scanned.jpg",
+        "value": "2025-01-31",
+        "evidence": "31/01/2025"
+      },
+      {
+        "document_id": "DOC-C-1002-POLICE",
+        "filename": "C-1002-police-report-scanned.jpg",
+        "value": "2025-01-31",
+        "evidence": "31/01/2025"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1002",
+    "rule": "date_reported_consistency",
+    "field": "date_reported",
+    "status": "VERIFIED",
+    "expected_value": "2025-02-05",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1002-FNOL-SCAN",
+        "filename": "C-1002-fnol-scanned.jpg",
+        "value": "2025-02-05",
+        "evidence": "05/02/2025"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1002",
+    "rule": "insured_name_consistency",
+    "field": "insured_name",
+    "status": "MISMATCHED",
+    "expected_value": "Mr. Stewart Montague",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1002-ACCIDENT-SCAN",
+        "filename": "C-1002-accident-statement-scanned.jpg",
+        "value": "Mr. Stewart Montague",
+        "evidence": "Mr. Stewart Montague"
+      },
+      {
+        "document_id": "DOC-C-1002-DENIAL-SCAN",
+        "filename": "C-1002-denial-letter-scanned.jpg",
+        "value": "Mr. Stewart Montague",
+        "evidence": "Mr. Stewart Montague"
+      },
+      {
+        "document_id": "DOC-C-1002-FNOL-SCAN",
+        "filename": "C-1002-fnol-scanned.jpg",
+        "value": "Mr. Stewart Montague",
+        "evidence": "Mr. Stewart Montague"
+      },
+      {
+        "document_id": "DOC-C-1002-POLICE",
+        "filename": "C-1002-police-report-scanned.jpg",
+        "value": "Mr. Stewart Montague\nVehicle Opel",
+        "evidence": "Mr. Stewart Montague\nVehicle Opel"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1002",
+    "rule": "insured_vehicle_consistency",
+    "field": "insured_vehicle",
+    "status": "VERIFIED",
+    "expected_value": "Opel Astra (2008, red)",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1002-ACCIDENT-SCAN",
+        "filename": "C-1002-accident-statement-scanned.jpg",
+        "value": "Opel Astra (2008, red)",
+        "evidence": "Opel Astra (2008, red)"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1002",
+    "rule": "policy_number_consistency",
+    "field": "policy_number",
+    "status": "VERIFIED",
+    "expected_value": "MOT-0000004",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1002-ACCIDENT-SCAN",
+        "filename": "C-1002-accident-statement-scanned.jpg",
+        "value": "MOT-0000004",
+        "evidence": "MOT-0000004"
+      },
+      {
+        "document_id": "DOC-C-1002-DENIAL-SCAN",
+        "filename": "C-1002-denial-letter-scanned.jpg",
+        "value": "MOT-0000004",
+        "evidence": "MOT-0000004"
+      },
+      {
+        "document_id": "DOC-C-1002-FNOL-SCAN",
+        "filename": "C-1002-fnol-scanned.jpg",
+        "value": "MOT-0000004",
+        "evidence": "MOT-0000004"
+      },
+      {
+        "document_id": "DOC-C-1002-POLICE",
+        "filename": "C-1002-police-report-scanned.jpg",
+        "value": "MOT-0000004",
+        "evidence": "MOT-0000004"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1002",
+    "rule": "reserve_amount_consistency",
+    "field": "reserve_amount",
+    "status": "VERIFIED",
+    "expected_value": 0.0,
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1002-FNOL-SCAN",
+        "filename": "C-1002-fnol-scanned.jpg",
+        "value": "0.00",
+        "evidence": "€0.00"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1002",
+    "rule": "vehicle_registration_consistency",
+    "field": "vehicle_registration",
+    "status": "MISSING",
+    "expected_value": "XD-9797-YI",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1002-ACCIDENT-SCAN",
+        "filename": "C-1002-accident-statement-scanned.jpg",
+        "value": null,
+        "evidence": null
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1003",
+    "rule": "cause_of_loss_consistency",
+    "field": "cause_of_loss",
+    "status": "MANUAL_REVIEW_REQUIRED",
+    "expected_value": "rear_end_collision",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1003-ACCIDENT-SCAN",
+        "filename": "C-1003-accident-statement-scanned.jpg",
+        "value": null,
+        "evidence": null
+      },
+      {
+        "document_id": "DOC-C-1003-FNOL-SCAN",
+        "filename": "C-1003-fnol-scanned.jpg",
+        "value": "rear-end collision",
+        "evidence": "rear-end collision"
+      },
+      {
+        "document_id": "DOC-C-1003-POLICE",
+        "filename": "C-1003-police-report-scanned.jpg",
+        "value": "rear-end collision",
+        "evidence": "rear-end collision"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1003",
+    "rule": "claim_decision_consistency",
+    "field": "claim_decision",
+    "status": "VERIFIED",
+    "expected_value": "denied",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1003-DENIAL-SCAN",
+        "filename": "C-1003-denial-letter-scanned.jpg",
+        "value": "denied",
+        "evidence": "denied"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1003",
+    "rule": "claim_number_consistency",
+    "field": "claim_number",
+    "status": "MANUAL_REVIEW_REQUIRED",
+    "expected_value": "C-1003",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1003-ACCIDENT-SCAN",
+        "filename": "C-1003-accident-statement-scanned.jpg",
+        "value": null,
+        "evidence": null
+      },
+      {
+        "document_id": "DOC-C-1003-DENIAL-SCAN",
+        "filename": "C-1003-denial-letter-scanned.jpg",
+        "value": "C-1003",
+        "evidence": "C-1003"
+      },
+      {
+        "document_id": "DOC-C-1003-FNOL-SCAN",
+        "filename": "C-1003-fnol-scanned.jpg",
+        "value": "C-1003",
+        "evidence": "C-1003"
+      },
+      {
+        "document_id": "DOC-C-1003-POLICE",
+        "filename": "C-1003-police-report-scanned.jpg",
+        "value": "C-1003",
+        "evidence": "C-1003"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1003",
+    "rule": "claim_status_consistency",
+    "field": "claim_status",
+    "status": "VERIFIED",
+    "expected_value": "denied",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1003-FNOL-SCAN",
+        "filename": "C-1003-fnol-scanned.jpg",
+        "value": "DENIED",
+        "evidence": "DENIED"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1003",
+    "rule": "date_of_loss_consistency",
+    "field": "date_of_loss",
+    "status": "VERIFIED",
+    "expected_value": "2024-03-29",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1003-ACCIDENT-SCAN",
+        "filename": "C-1003-accident-statement-scanned.jpg",
+        "value": "2024-03-29",
+        "evidence": "29/03/2024"
+      },
+      {
+        "document_id": "DOC-C-1003-DENIAL-SCAN",
+        "filename": "C-1003-denial-letter-scanned.jpg",
+        "value": "2024-03-29",
+        "evidence": "29/03/2024"
+      },
+      {
+        "document_id": "DOC-C-1003-FNOL-SCAN",
+        "filename": "C-1003-fnol-scanned.jpg",
+        "value": "2024-03-29",
+        "evidence": "29/03/2024"
+      },
+      {
+        "document_id": "DOC-C-1003-POLICE",
+        "filename": "C-1003-police-report-scanned.jpg",
+        "value": "2024-03-29",
+        "evidence": "29/03/2024"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1003",
+    "rule": "date_reported_consistency",
+    "field": "date_reported",
+    "status": "VERIFIED",
+    "expected_value": "2024-04-07",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1003-FNOL-SCAN",
+        "filename": "C-1003-fnol-scanned.jpg",
+        "value": "2024-04-07",
+        "evidence": "07/04/2024"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1003",
+    "rule": "insured_name_consistency",
+    "field": "insured_name",
+    "status": "MISMATCHED",
+    "expected_value": "Dott. Alfio Leone",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1003-ACCIDENT-SCAN",
+        "filename": "C-1003-accident-statement-scanned.jpg",
+        "value": "Dott. Alfio Leone",
+        "evidence": "Dott. Alfio Leone"
+      },
+      {
+        "document_id": "DOC-C-1003-DENIAL-SCAN",
+        "filename": "C-1003-denial-letter-scanned.jpg",
+        "value": "Dott. Alfio Leone\nStretto Gaetano",
+        "evidence": "Dott. Alfio Leone\nStretto Gaetano"
+      },
+      {
+        "document_id": "DOC-C-1003-FNOL-SCAN",
+        "filename": "C-1003-fnol-scanned.jpg",
+        "value": "Dott. Alfio Leone",
+        "evidence": "Dott. Alfio Leone"
+      },
+      {
+        "document_id": "DOC-C-1003-POLICE",
+        "filename": "C-1003-police-report-scanned.jpg",
+        "value": "Dott. Alfio Leone\nVehicle Peugeot",
+        "evidence": "Dott. Alfio Leone\nVehicle Peugeot"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1003",
+    "rule": "insured_vehicle_consistency",
+    "field": "insured_vehicle",
+    "status": "MISMATCHED",
+    "expected_value": "Peugeot 208 (2016, black)",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1003-ACCIDENT-SCAN",
+        "filename": "C-1003-accident-statement-scanned.jpg",
+        "value": "Peugeot 208 (2046, black)",
+        "evidence": "Peugeot 208 (2046, black)"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1003",
+    "rule": "policy_number_consistency",
+    "field": "policy_number",
+    "status": "MANUAL_REVIEW_REQUIRED",
+    "expected_value": "MOT-0000002",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1003-ACCIDENT-SCAN",
+        "filename": "C-1003-accident-statement-scanned.jpg",
+        "value": null,
+        "evidence": null
+      },
+      {
+        "document_id": "DOC-C-1003-DENIAL-SCAN",
+        "filename": "C-1003-denial-letter-scanned.jpg",
+        "value": "MOT-0000002",
+        "evidence": "MOT-0000002"
+      },
+      {
+        "document_id": "DOC-C-1003-FNOL-SCAN",
+        "filename": "C-1003-fnol-scanned.jpg",
+        "value": "MOT-0000002",
+        "evidence": "MOT-0000002"
+      },
+      {
+        "document_id": "DOC-C-1003-POLICE",
+        "filename": "C-1003-police-report-scanned.jpg",
+        "value": "MOT-0000002",
+        "evidence": "MOT-0000002"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1003",
+    "rule": "reserve_amount_consistency",
+    "field": "reserve_amount",
+    "status": "VERIFIED",
+    "expected_value": 0.0,
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1003-FNOL-SCAN",
+        "filename": "C-1003-fnol-scanned.jpg",
+        "value": "0.00",
+        "evidence": "€0.00"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1003",
+    "rule": "vehicle_registration_consistency",
+    "field": "vehicle_registration",
+    "status": "MISSING",
+    "expected_value": "HX-9830-IX",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1003-ACCIDENT-SCAN",
+        "filename": "C-1003-accident-statement-scanned.jpg",
+        "value": null,
+        "evidence": null
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1004",
+    "rule": "cause_of_loss_consistency",
+    "field": "cause_of_loss",
+    "status": "VERIFIED",
+    "expected_value": "hail",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1004-ACCIDENT-SCAN",
+        "filename": "C-1004-accident-statement-scanned.jpg",
+        "value": "hail",
+        "evidence": "hail"
+      },
+      {
+        "document_id": "DOC-C-1004-FNOL-SCAN",
+        "filename": "C-1004-fnol-scanned.jpg",
+        "value": "hail",
+        "evidence": "hail"
+      },
+      {
+        "document_id": "DOC-C-1004-POLICE",
+        "filename": "C-1004-police-report-scanned.jpg",
+        "value": "hail",
+        "evidence": "hail"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1004",
+    "rule": "claim_decision_consistency",
+    "field": "claim_decision",
+    "status": "VERIFIED",
+    "expected_value": "approved",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1004-SETTLEMENT-SCAN",
+        "filename": "C-1004-settlement-letter-scanned.jpg",
+        "value": "approved",
+        "evidence": "approved"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1004",
+    "rule": "claim_number_consistency",
+    "field": "claim_number",
+    "status": "MANUAL_REVIEW_REQUIRED",
+    "expected_value": "C-1004",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1004-ACCIDENT-SCAN",
+        "filename": "C-1004-accident-statement-scanned.jpg",
+        "value": null,
+        "evidence": null
+      },
+      {
+        "document_id": "DOC-C-1004-FNOL-SCAN",
+        "filename": "C-1004-fnol-scanned.jpg",
+        "value": "C-1004",
+        "evidence": "C-1004"
+      },
+      {
+        "document_id": "DOC-C-1004-POLICE",
+        "filename": "C-1004-police-report-scanned.jpg",
+        "value": "C-1004",
+        "evidence": "C-1004"
+      },
+      {
+        "document_id": "DOC-C-1004-SETTLEMENT-SCAN",
+        "filename": "C-1004-settlement-letter-scanned.jpg",
+        "value": "C-1004",
+        "evidence": "C-1004"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1004",
+    "rule": "claim_status_consistency",
+    "field": "claim_status",
+    "status": "VERIFIED",
+    "expected_value": "closed",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1004-FNOL-SCAN",
+        "filename": "C-1004-fnol-scanned.jpg",
+        "value": "CLOSED",
+        "evidence": "CLOSED"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1004",
+    "rule": "date_of_loss_consistency",
+    "field": "date_of_loss",
+    "status": "VERIFIED",
+    "expected_value": "2025-09-03",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1004-ACCIDENT-SCAN",
+        "filename": "C-1004-accident-statement-scanned.jpg",
+        "value": "2025-09-03",
+        "evidence": "03/09/2025"
+      },
+      {
+        "document_id": "DOC-C-1004-FNOL-SCAN",
+        "filename": "C-1004-fnol-scanned.jpg",
+        "value": "2025-09-03",
+        "evidence": "03/09/2025"
+      },
+      {
+        "document_id": "DOC-C-1004-POLICE",
+        "filename": "C-1004-police-report-scanned.jpg",
+        "value": "2025-09-03",
+        "evidence": "03/09/2025"
+      },
+      {
+        "document_id": "DOC-C-1004-SETTLEMENT-SCAN",
+        "filename": "C-1004-settlement-letter-scanned.jpg",
+        "value": "2025-09-03",
+        "evidence": "03/09/2025"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1004",
+    "rule": "date_reported_consistency",
+    "field": "date_reported",
+    "status": "VERIFIED",
+    "expected_value": "2025-09-05",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1004-FNOL-SCAN",
+        "filename": "C-1004-fnol-scanned.jpg",
+        "value": "2025-09-05",
+        "evidence": "05/09/2025"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1004",
+    "rule": "deductible_consistency",
+    "field": "deductible",
+    "status": "VERIFIED",
+    "expected_value": 500.0,
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1004-SETTLEMENT-SCAN",
+        "filename": "C-1004-settlement-letter-scanned.jpg",
+        "value": "500.00",
+        "evidence": "€500.00"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1004",
+    "rule": "insured_name_consistency",
+    "field": "insured_name",
+    "status": "MISMATCHED",
+    "expected_value": "Mr. Stewart Montague",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1004-ACCIDENT-SCAN",
+        "filename": "C-1004-accident-statement-scanned.jpg",
+        "value": "Mr. Stewart Montague",
+        "evidence": "Mr. Stewart Montague"
+      },
+      {
+        "document_id": "DOC-C-1004-FNOL-SCAN",
+        "filename": "C-1004-fnol-scanned.jpg",
+        "value": "Mr. Stewart Montague",
+        "evidence": "Mr. Stewart Montague"
+      },
+      {
+        "document_id": "DOC-C-1004-POLICE",
+        "filename": "C-1004-police-report-scanned.jpg",
+        "value": "Mr. Stewart Montague\nVehicle Opel",
+        "evidence": "Mr. Stewart Montague\nVehicle Opel"
+      },
+      {
+        "document_id": "DOC-C-1004-SETTLEMENT-SCAN",
+        "filename": "C-1004-settlement-letter-scanned.jpg",
+        "value": "Mr. Stewart Montague",
+        "evidence": "Mr. Stewart Montague"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1004",
+    "rule": "insured_vehicle_consistency",
+    "field": "insured_vehicle",
+    "status": "VERIFIED",
+    "expected_value": "Opel Astra (2008, red)",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1004-ACCIDENT-SCAN",
+        "filename": "C-1004-accident-statement-scanned.jpg",
+        "value": "Opel Astra (2008, red)",
+        "evidence": "Opel Astra (2008, red)"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1004",
+    "rule": "policy_number_consistency",
+    "field": "policy_number",
+    "status": "MANUAL_REVIEW_REQUIRED",
+    "expected_value": "MOT-0000004",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1004-ACCIDENT-SCAN",
+        "filename": "C-1004-accident-statement-scanned.jpg",
+        "value": null,
+        "evidence": null
+      },
+      {
+        "document_id": "DOC-C-1004-FNOL-SCAN",
+        "filename": "C-1004-fnol-scanned.jpg",
+        "value": "MOT-0000004",
+        "evidence": "MOT-0000004"
+      },
+      {
+        "document_id": "DOC-C-1004-POLICE",
+        "filename": "C-1004-police-report-scanned.jpg",
+        "value": "MOT-0000004",
+        "evidence": "MOT-0000004"
+      },
+      {
+        "document_id": "DOC-C-1004-SETTLEMENT-SCAN",
+        "filename": "C-1004-settlement-letter-scanned.jpg",
+        "value": "MOT-0000004",
+        "evidence": "MOT-0000004"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1004",
+    "rule": "reserve_amount_consistency",
+    "field": "reserve_amount",
+    "status": "VERIFIED",
+    "expected_value": 0.0,
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1004-FNOL-SCAN",
+        "filename": "C-1004-fnol-scanned.jpg",
+        "value": "0.00",
+        "evidence": "€0.00"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1004",
+    "rule": "settlement_amount_consistency",
+    "field": "settlement_amount",
+    "status": "VERIFIED",
+    "expected_value": 48950.0,
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1004-SETTLEMENT-SCAN",
+        "filename": "C-1004-settlement-letter-scanned.jpg",
+        "value": "48950.00",
+        "evidence": "€48,950.00"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "C-1004",
+    "rule": "vehicle_registration_consistency",
+    "field": "vehicle_registration",
+    "status": "MISSING",
+    "expected_value": "XD-9797-YI",
+    "observed_values": [
+      {
+        "document_id": "DOC-C-1004-ACCIDENT-SCAN",
+        "filename": "C-1004-accident-statement-scanned.jpg",
+        "value": null,
+        "evidence": null
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "PH-00001",
+    "rule": "identification_number_consistency",
+    "field": "identification_number",
+    "status": "VERIFIED",
+    "expected_value": "338908380",
+    "observed_values": [
+      {
+        "document_id": "DOC-PH-00001-IDCARD-SCAN",
+        "filename": "PH-00001-id-card-scanned.jpg",
+        "value": "338908380",
+        "evidence": "338908380"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "PH-00001",
+    "rule": "insured_name_consistency",
+    "field": "insured_name",
+    "status": "VERIFIED",
+    "expected_value": "Ali Schellekens",
+    "observed_values": [
+      {
+        "document_id": "DOC-PH-00001-IDCARD-SCAN",
+        "filename": "PH-00001-id-card-scanned.jpg",
+        "value": "Ali Schellekens",
+        "evidence": "Ali Schellekens"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "PH-00002",
+    "rule": "identification_number_consistency",
+    "field": "identification_number",
+    "status": "VERIFIED",
+    "expected_value": "ZAYZFW65Z42G511M",
+    "observed_values": [
+      {
+        "document_id": "DOC-PH-00002-IDCARD-SCAN",
+        "filename": "PH-00002-id-card-scanned.jpg",
+        "value": "ZAYZFW65Z42G511M",
+        "evidence": "ZAYZFW65Z42G511M"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "PH-00002",
+    "rule": "insured_name_consistency",
+    "field": "insured_name",
+    "status": "MISMATCHED",
+    "expected_value": "Dott. Alfio Leone",
+    "observed_values": [
+      {
+        "document_id": "DOC-PH-00002-IDCARD-SCAN",
+        "filename": "PH-00002-id-card-scanned.jpg",
+        "value": "Alpio Leone",
+        "evidence": "Alpio Leone"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "PH-00003",
+    "rule": "identification_number_consistency",
+    "field": "identification_number",
+    "status": "MISSING",
+    "expected_value": "04078161849",
+    "observed_values": [
+      {
+        "document_id": "DOC-PH-00003-IDCARD-SCAN",
+        "filename": "PH-00003-id-card-scanned.jpg",
+        "value": null,
+        "evidence": null
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "PH-00003",
+    "rule": "insured_name_consistency",
+    "field": "insured_name",
+    "status": "MISSING",
+    "expected_value": "Dorit Etzold",
+    "observed_values": [
+      {
+        "document_id": "DOC-PH-00003-IDCARD-SCAN",
+        "filename": "PH-00003-id-card-scanned.jpg",
+        "value": null,
+        "evidence": null
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "PH-00004",
+    "rule": "identification_number_consistency",
+    "field": "identification_number",
+    "status": "VERIFIED",
+    "expected_value": "88753260-X",
+    "observed_values": [
+      {
+        "document_id": "DOC-PH-00004-IDCARD-SCAN",
+        "filename": "PH-00004-id-card-scanned.jpg",
+        "value": "88753260-X",
+        "evidence": "88753260-X"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "PH-00004",
+    "rule": "insured_name_consistency",
+    "field": "insured_name",
+    "status": "MISMATCHED",
+    "expected_value": "Albano Llopis Hierro",
+    "observed_values": [
+      {
+        "document_id": "DOC-PH-00004-IDCARD-SCAN",
+        "filename": "PH-00004-id-card-scanned.jpg",
+        "value": "Albano Rierro",
+        "evidence": "Albano Rierro"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "PH-00005",
+    "rule": "identification_number_consistency",
+    "field": "identification_number",
+    "status": "VERIFIED",
+    "expected_value": "016475255341928",
+    "observed_values": [
+      {
+        "document_id": "DOC-PH-00005-IDCARD-SCAN",
+        "filename": "PH-00005-id-card-scanned.jpg",
+        "value": "016475255341928",
+        "evidence": "016475255341928"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "PH-00005",
+    "rule": "insured_name_consistency",
+    "field": "insured_name",
+    "status": "MISMATCHED",
+    "expected_value": "Aurore Maury",
+    "observed_values": [
+      {
+        "document_id": "DOC-PH-00005-IDCARD-SCAN",
+        "filename": "PH-00005-id-card-scanned.jpg",
+        "value": "Aurorec Maury",
+        "evidence": "Aurorec Maury"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "PH-00006",
+    "rule": "identification_number_consistency",
+    "field": "identification_number",
+    "status": "VERIFIED",
+    "expected_value": "4528972TA",
+    "observed_values": [
+      {
+        "document_id": "DOC-PH-00006-IDCARD-SCAN",
+        "filename": "PH-00006-id-card-scanned.jpg",
+        "value": "4528972TA",
+        "evidence": "4528972TA"
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  },
+  {
+    "case_id": "PH-00006",
+    "rule": "insured_name_consistency",
+    "field": "insured_name",
+    "status": "MISSING",
+    "expected_value": "Mr. Stewart Montague",
+    "observed_values": [
+      {
+        "document_id": "DOC-PH-00006-IDCARD-SCAN",
+        "filename": "PH-00006-id-card-scanned.jpg",
+        "value": null,
+        "evidence": null
+      }
+    ],
+    "message": "Cross-document consistency check only; this result does not determine coverage, approval, or claim eligibility."
+  }
+]
